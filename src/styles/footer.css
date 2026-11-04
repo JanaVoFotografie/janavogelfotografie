@@ -1,0 +1,289 @@
+/* Footer (Flex Builder block 46657) */
+@media (max-width: 767px) {
+  .flo-block--footer {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+}
+@media (min-width: 768px) {
+  .flo-block--footer {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .flex-block--blockID--46657 {
+    --html-font-size: 1.25vw;
+    --height: 9.5938em;
+    --bg-color: #ab7f56;
+    --margin-top: 0em;
+    --margin-bottom: 0em;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .flex-block--blockID--46657 {
+    --html-font-size: 4.2666666666667vw;
+    --height: 11.9375em;
+    --bg-color: #ab7f56;
+    --margin-top: 0em;
+    --margin-bottom: 0em;
+  }
+}
+.flex-block__element--block-blockID--46657.flex-block__element--element_id_926ca4e1c1c4 {
+  --el-width: 1.3125em;
+  --el-width-tablet: 1.3125em;
+  --el-height: 1.09375em;
+  --el-height-tablet: 1.09375em;
+  --el-actual-height: 1.09375em;
+  --el-actual-height-tablet: 1.09375em;
+  --position-top: 2.76563em;
+  --position-top-tablet: 2.76563em;
+  --position-left: 71.71875em;
+  --position-left-tablet: 71.71875em;
+  --rotateDeg: 0deg;
+  --z-index: 6;
+  --border-radius: 0px;
+}
+@media only screen and (max-width: 767px) {
+  .flex-block__element--block-blockID--46657.flex-block__element--element_id_926ca4e1c1c4 {
+    --el-width: 1.3125em;
+    --el-width-tablet: 1.3125em;
+    --el-height: 1.09375em;
+    --el-height-tablet: 1.09375em;
+    --el-actual-height: 1.09375em;
+    --el-actual-height-tablet: 1.09375em;
+    --position-top: 2.23438em;
+    --position-top-tablet: 2.23438em;
+    --position-left: 19em;
+    --position-left-tablet: 19em;
+    --rotateDeg: 0deg;
+    --z-index: 4;
+    --border-radius: 0px;
+  }
+}
+.flex-block__element--block-blockID--46657.flex-block__element--element_id_58332671e6f2 {
+  --el-width: 1.3125em;
+  --el-width-tablet: 1.3125em;
+  --el-height: 1.09375em;
+  --el-height-tablet: 1.09375em;
+  --el-actual-height: 1.09375em;
+  --el-actual-height-tablet: 1.09375em;
+  --position-top: 2.76563em;
+  --position-top-tablet: 2.76563em;
+  --position-left: 73.3125em;
+  --position-left-tablet: 73.3125em;
+  --rotateDeg: 0deg;
+  --z-index: 7;
+  --border-radius: 0px;
+}
+@media only screen and (max-width: 767px) {
+  .flex-block__element--block-blockID--46657.flex-block__element--element_id_58332671e6f2 {
+    --el-width: 1.3125em;
+    --el-width-tablet: 1.3125em;
+    --el-height: 1.09375em;
+    --el-height-tablet: 1.09375em;
+    --el-actual-height: 1.09375em;
+    --el-actual-height-tablet: 1.09375em;
+    --position-top: 2.25em;
+    --position-top-tablet: 2.25em;
+    --position-left: 20.53125em;
+    --position-left-tablet: 20.53125em;
+    --rotateDeg: 0deg;
+    --z-index: 5;
+    --border-radius: 0px;
+  }
+}
+.flex-block__element--block-blockID--46657.flex-block__element--element_id_bbd78cb88305 {
+  --el-width: 18.68823em;
+  --el-width-tablet: 18.68823em;
+  --el-height: 0.68763em;
+  --el-height-tablet: 0.68763em;
+  --el-actual-height: 0.68763em;
+  --el-actual-height-tablet: 0.68763em;
+  --position-top: 2.94699em;
+  --position-top-tablet: 2.94699em;
+  --position-left: 5.60647em;
+  --position-left-tablet: 5.60647em;
+  --rotateDeg: 0deg;
+  --z-index: 2;
+  --border-radius: 0px;
+  --text-vertical-align: flex-start;
+  --text-align: left;
+  --el-height: auto;
+  --el-paddings: 0em 0em;
+}
+@media only screen and (max-width: 767px) {
+  .flex-block__element--block-blockID--46657.flex-block__element--element_id_bbd78cb88305 {
+    --el-width: 14.75em;
+    --el-width-tablet: 14.75em;
+    --el-height: 0.6875em;
+    --el-height-tablet: 0.6875em;
+    --el-actual-height: 0.6875em;
+    --el-actual-height-tablet: 0.6875em;
+    --position-top: 2.4375em;
+    --position-top-tablet: 2.4375em;
+    --position-left: 1.875em;
+    --position-left-tablet: 1.875em;
+    --rotateDeg: 0deg;
+    --z-index: 2;
+    --border-radius: 0px;
+    --text-vertical-align: flex-start;
+    --text-align: left;
+    --el-height: auto;
+    --el-paddings: 0em 0em;
+  }
+}
+.flex-block__element--block-blockID--46657.flex-block__element--element_id_51950 {
+  --el-width: 68.75em;
+  --el-width-tablet: 68.75em;
+  --el-height: 1px;
+  --el-height-tablet: 1px;
+  --el-actual-height: 1px;
+  --el-actual-height-tablet: 1px;
+  --position-top: 4.3125em;
+  --position-top-tablet: 4.3125em;
+  --position-left: 5.625em;
+  --position-left-tablet: 5.625em;
+  --rotateDeg: 0deg;
+  --z-index: 1;
+  --border-radius: 0px;
+  --backgroundColor: var(--scheme_1--background--default);
+}
+@media only screen and (max-width: 767px) {
+  .flex-block__element--block-blockID--46657.flex-block__element--element_id_51950 {
+    --el-width: 19.6875em;
+    --el-width-tablet: 19.6875em;
+    --el-height: 1px;
+    --el-height-tablet: 1px;
+    --el-actual-height: 1px;
+    --el-actual-height-tablet: 1px;
+    --position-top: 3.875em;
+    --position-top-tablet: 3.875em;
+    --position-left: 1.875em;
+    --position-left-tablet: 1.875em;
+    --rotateDeg: 0deg;
+    --z-index: 1;
+    --border-radius: 0px;
+    --backgroundColor: var(--scheme_1--background--default);
+  }
+}
+.flex-block__element--block-blockID--46657.flex-block__element--element_id_a0d53852cab1 {
+  --el-width: 14.75em;
+  --el-width-tablet: 14.75em;
+  --el-height: 0.68763em;
+  --el-height-tablet: 0.68763em;
+  --el-actual-height: 0.68763em;
+  --el-actual-height-tablet: 0.68763em;
+  --position-top: 5em;
+  --position-top-tablet: 5em;
+  --position-left: 5.5625em;
+  --position-left-tablet: 5.5625em;
+  --rotateDeg: 0deg;
+  --z-index: 3;
+  --border-radius: 0px;
+  --text-vertical-align: flex-start;
+  --text-align: left;
+  --el-height: auto;
+  --el-paddings: 0em 0em;
+}
+@media only screen and (max-width: 767px) {
+  .flex-block__element--block-blockID--46657.flex-block__element--element_id_a0d53852cab1 {
+    --el-width: 14.75em;
+    --el-width-tablet: 14.75em;
+    --el-height: 0.6875em;
+    --el-height-tablet: 0.6875em;
+    --el-actual-height: 0.6875em;
+    --el-actual-height-tablet: 0.6875em;
+    --position-top: 4.71875em;
+    --position-top-tablet: 4.71875em;
+    --position-left: 1.78125em;
+    --position-left-tablet: 1.78125em;
+    --rotateDeg: 0deg;
+    --z-index: 3;
+    --border-radius: 0px;
+    --text-vertical-align: flex-start;
+    --text-align: left;
+    --el-height: auto;
+    --el-paddings: 0em 0em;
+  }
+}
+.flex-block__element--block-blockID--46657.flex-block__element--element_id_b71ea6c6694d {
+  --el-width: 14.77778em;
+  --el-width-tablet: 14.77778em;
+  --el-height: 0.68763em;
+  --el-height-tablet: 0.68763em;
+  --el-actual-height: 0.68763em;
+  --el-actual-height-tablet: 0.68763em;
+  --position-top: 5em;
+  --position-top-tablet: 5em;
+  --position-left: 11.88889em;
+  --position-left-tablet: 11.88889em;
+  --rotateDeg: 0deg;
+  --z-index: 4;
+  --border-radius: 0px;
+  --text-vertical-align: flex-start;
+  --text-align: left;
+  --el-height: auto;
+  --el-paddings: 0em 0em;
+}
+@media only screen and (max-width: 767px) {
+  .flex-block__element--block-blockID--46657.flex-block__element--element_id_b71ea6c6694d {
+    --el-width: 14.77778em;
+    --el-width-tablet: 14.77778em;
+    --el-height: 0.6875em;
+    --el-height-tablet: 0.6875em;
+    --el-actual-height: 0.6875em;
+    --el-actual-height-tablet: 0.6875em;
+    --position-top: 4.72222em;
+    --position-top-tablet: 4.72222em;
+    --position-left: 8.22222em;
+    --position-left-tablet: 8.22222em;
+    --rotateDeg: 0deg;
+    --z-index: 6;
+    --border-radius: 0px;
+    --text-vertical-align: flex-start;
+    --text-align: left;
+    --el-height: auto;
+    --el-paddings: 0em 0em;
+  }
+}
+.flex-block__element--block-blockID--46657.flex-block__element--element_id_0b744584b6b7 {
+  --el-width: 14.77778em;
+  --el-width-tablet: 14.77778em;
+  --el-height: 0.68763em;
+  --el-height-tablet: 0.68763em;
+  --el-actual-height: 0.68763em;
+  --el-actual-height-tablet: 0.68763em;
+  --position-top: 5em;
+  --position-top-tablet: 5em;
+  --position-left: 59.61111em;
+  --position-left-tablet: 59.61111em;
+  --rotateDeg: 0deg;
+  --z-index: 5;
+  --border-radius: 0px;
+  --text-vertical-align: flex-start;
+  --text-align: right;
+  --el-height: auto;
+  --el-paddings: 0em 0em;
+}
+@media only screen and (max-width: 767px) {
+  .flex-block__element--block-blockID--46657.flex-block__element--element_id_0b744584b6b7 {
+    --el-width: 14.78125em;
+    --el-width-tablet: 14.78125em;
+    --el-height: 0.6875em;
+    --el-height-tablet: 0.6875em;
+    --el-actual-height: 0.6875em;
+    --el-actual-height-tablet: 0.6875em;
+    --position-top: 8.78125em;
+    --position-top-tablet: 8.78125em;
+    --position-left: 4.32813em;
+    --position-left-tablet: 4.32813em;
+    --rotateDeg: 0deg;
+    --z-index: 7;
+    --border-radius: 0px;
+    --text-vertical-align: flex-start;
+    --text-align: center;
+    --el-height: auto;
+    --el-paddings: 0em 0em;
+  }
+}

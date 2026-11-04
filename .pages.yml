@@ -1,0 +1,168 @@
+# Pages CMS (https://pagescms.org) – Bildverwaltung für janavogelfotografie.de
+#
+# Einrichtung (einmalig): Jana meldet sich auf https://app.pagescms.org mit ihrem GitHub-Konto an und installiert
+# die kostenlose GitHub-App ($0-Plan, kein Abo) nur für dieses Repository. Danach genügt "Sign in with GitHub".
+# Jede Änderung wird als Commit gespeichert; Vercel baut die Website danach automatisch neu
+# (dauert ca. 1–2 Minuten). Fotos werden dabei automatisch für das Web optimiert.
+
+media:
+  input: content/media
+  output: /media
+  extensions: [jpg, jpeg, png, webp]
+  rename: safe
+
+content:
+  # ------------------------------------------------------------------ Galerien
+  - name: galerie-hochzeiten
+    label: "Galerie: Hochzeiten"
+    type: file
+    path: content/galerien/hochzeiten.json
+    format: json
+    fields:
+      - name: alt
+        label: Bildbeschreibung
+        description: Kurzer Text für Google und Screenreader – gilt für alle Fotos dieser Galerie.
+        type: string
+      - name: bilder
+        label: Fotos
+        description: Reihenfolge per Drag & Drop ändern. Neue Fotos am besten als JPG mit ca. 2500 px Kantenlänge hochladen.
+        type: image
+        options:
+          multiple: true
+          path: content/media/galerie-hochzeiten
+
+  - name: galerie-paare
+    label: "Galerie: Paare"
+    type: file
+    path: content/galerien/paare.json
+    format: json
+    fields:
+      - name: alt
+        label: Bildbeschreibung
+        description: Kurzer Text für Google und Screenreader – gilt für alle Fotos dieser Galerie.
+        type: string
+      - name: bilder
+        label: Fotos
+        description: Reihenfolge per Drag & Drop ändern. Neue Fotos am besten als JPG mit ca. 2500 px Kantenlänge hochladen.
+        type: image
+        options:
+          multiple: true
+          path: content/media/galerie-paare
+
+  - name: galerie-familien
+    label: "Galerie: Familien"
+    type: file
+    path: content/galerien/familien.json
+    format: json
+    fields:
+      - name: alt
+        label: Bildbeschreibung
+        description: Kurzer Text für Google und Screenreader – gilt für alle Fotos dieser Galerie.
+        type: string
+      - name: bilder
+        label: Fotos
+        description: Reihenfolge per Drag & Drop ändern. Neue Fotos am besten als JPG mit ca. 2500 px Kantenlänge hochladen.
+        type: image
+        options:
+          multiple: true
+          path: content/media/galerie-familien
+
+  # ------------------------------------------------------------------ Seitenbilder
+  - name: seite-startseite
+    label: "Seitenbilder: Startseite"
+    type: file
+    path: content/seiten/startseite.json
+    format: json
+    fields:
+      - name: slideshow
+        label: Slideshow ganz oben (Vollbild)
+        description: Querformat-Fotos wirken hier am besten. Reihenfolge per Drag & Drop ändern.
+        component: seitenbild
+        list: true
+      - { name: bild01, label: "Intro – Hochformat oben links", component: seitenbild }
+      - { name: bild02, label: "Intro – Querformat unten", component: seitenbild }
+      - { name: bild03, label: "„Hi, ich bin Jana!“ – Hintergrundbild", component: seitenbild }
+      - { name: bild04, label: "Meine Leistungen – Paare", component: seitenbild }
+      - { name: bild05, label: "Meine Leistungen – Familien", component: seitenbild }
+      - { name: bild06, label: "Meine Leistungen – Hochzeiten", component: seitenbild }
+      - { name: bild07, label: "Love letters – Foto 1 (Simone & Ruven)", component: seitenbild }
+      - { name: bild08, label: "Love letters – Foto 2 (Laura)", component: seitenbild }
+      - { name: bild09, label: "Love letters – Foto 3 (Sarah & Nils)", component: seitenbild }
+
+  - name: seite-hochzeiten
+    label: "Seitenbilder: Hochzeiten"
+    type: file
+    path: content/seiten/hochzeiten.json
+    format: json
+    fields:
+      - { name: bild01, label: "Titelbild („It was always you“)", component: seitenbild }
+
+  - name: seite-paare
+    label: "Seitenbilder: Paare"
+    type: file
+    path: content/seiten/paare.json
+    format: json
+    fields:
+      - { name: bild01, label: "Titelbild („Always better together“)", component: seitenbild }
+
+  - name: seite-familien
+    label: "Seitenbilder: Familien"
+    type: file
+    path: content/seiten/familien.json
+    format: json
+    fields:
+      - { name: bild01, label: "Titelbild („Where life begins and love grows“)", component: seitenbild }
+
+  - name: seite-portfolio
+    label: "Seitenbilder: Portfolio"
+    type: file
+    path: content/seiten/portfolio.json
+    format: json
+    fields:
+      - { name: bild01, label: "Hochzeiten", component: seitenbild }
+      - { name: bild02, label: "Familien", component: seitenbild }
+      - { name: bild03, label: "Paare", component: seitenbild }
+
+  - name: seite-info
+    label: "Seitenbilder: Info (Hochzeitsreportage)"
+    type: file
+    path: content/seiten/info.json
+    format: json
+    fields:
+      - { name: bild01, label: "Titelbild oben", component: seitenbild }
+      - { name: bild02, label: "„beautiful memories“ – großes Foto", component: seitenbild }
+      - { name: bild03, label: "„beautiful memories“ – kleines Foto links", component: seitenbild }
+      - { name: bild04, label: "„After Wedding Shooting“ – Hintergrundbild", component: seitenbild }
+
+  - name: seite-ueber-mich
+    label: "Seitenbilder: Über mich"
+    type: file
+    path: content/seiten/ueber-mich.json
+    format: json
+    fields:
+      - { name: bild01, label: "Porträt oben", component: seitenbild }
+      - { name: bild02, label: "Foto mit Kamera (Mitte links)", component: seitenbild }
+      - { name: bild03, label: "Porträt unten rechts", component: seitenbild }
+
+  - name: seite-kontakt
+    label: "Seitenbilder: Kontakt"
+    type: file
+    path: content/seiten/kontakt.json
+    format: json
+    fields:
+      - { name: bild01, label: "Titelbild („Hallo zusammen!“)", component: seitenbild }
+
+components:
+  seitenbild:
+    type: object
+    description: Das Foto wird automatisch auf den Bildausschnitt zugeschnitten (zentriert).
+    fields:
+      - name: bild
+        label: Foto
+        type: image
+        options:
+          path: content/media/seiten
+      - name: alt
+        label: Bildbeschreibung
+        description: Kurzer Text für Google und Screenreader, z. B. „Brautpaar im Sonnenuntergang“.
+        type: string

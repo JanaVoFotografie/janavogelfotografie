@@ -1,0 +1,1084 @@
+/* Header (Seiten-spezifische Farben) */
+header:not(.is-sticky) .flo-header--infos-hochzeitsreportage,
+header:not(.is-custom) .flo-header--infos-hochzeitsreportage {
+  padding-top: 0.9375rem;
+  padding-bottom: 0.9375rem;
+}
+header:not(.is-sticky) .flo-header--infos-hochzeitsreportage,
+header:not(.is-custom) .flo-header--infos-hochzeitsreportage {
+  background-color: #ffffff;
+}
+header:not(.is-sticky) .flo-header--infos-hochzeitsreportage .flo-header__menu > ul > li > a,
+header:not(.is-custom) .flo-header--infos-hochzeitsreportage .flo-header__menu > ul > li > a {
+}
+header.is-custom .flo-header.flo-header--infos-hochzeitsreportage {
+  background-color: #ffffff;
+}
+.flo-header--sticky.is-sticky .flo-header.flo-header--infos-hochzeitsreportage {
+  color: var(--scheme_1--text--default);
+  border-color: var(--scheme_1--text--default);
+  background-color: var(--scheme_1--background--default);
+  padding-top: 0.9375rem;
+  padding-bottom: 0.9375rem;
+}
+.flo-header--infos-hochzeitsreportage .flo-header__menu--right .flo-header__menu-items > li:not(:first-child) {
+  margin-left: 5.625rem;
+}
+.flo-header--infos-hochzeitsreportage .flo-header__menu--left .flo-header__menu-items > li:not(:last-child) {
+  margin-right: 5.625rem;
+}
+.flo-header--infos-hochzeitsreportage .flo-header__search-wrap {
+  color: var(--scheme_1--text--default);
+}
+.flo-header--infos-hochzeitsreportage .flo-header__menu ul ul {
+  background-color: #c7a485;
+  min-width: 9.375rem;
+}
+.flo-header--infos-hochzeitsreportage .flo-header__menu ul ul a {
+  color: #ffffff !important;
+}
+.flo-header--infos-hochzeitsreportage .flo-header__menu li ul li {
+  border-color: #ffffff;
+}
+@media (min-width: 768px) {
+  .flo-header--infos-hochzeitsreportage .flo-header__menu {
+    width: calc((100% - 9.375rem / 2) / 2 - 3.75rem);
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .flo-header--infos-hochzeitsreportage .flo-header__logo {
+    max-width: 15.625rem;
+  }
+}
+@media (min-width: 1025px) {
+  .flo-header--infos-hochzeitsreportage .flo-header__logo {
+    max-width: 9.375rem;
+  }
+}
+.flo-header-mobile.flo-header-mobile--infos-hochzeitsreportage {
+  --max-logo-width: 10rem;
+  --color: var(--scheme_1--text--default);
+  --background-color: var(--scheme_1--background--default);
+  --sticky-color: var(--scheme_1--text--default);
+  --sticky-bgc: var(--scheme_1--background--default);
+}
+@media (max-width: 767px) {
+  .flo-mobile-menu {
+    background-color: #c7a485;
+    color: var(--scheme_1--text--accent);
+    border-color: var(--scheme_1--text--accent);
+  }
+  .flo-mobile-menu--infos-hochzeitsreportage .flo-mobile-menu__menu > li {
+    border-bottom-color: var(--scheme_1--text--accent) !important;
+  }
+  .flo-mobile-menu--infos-hochzeitsreportage .flo-mobile-menu__menu > li:before,
+  .flo-mobile-menu--infos-hochzeitsreportage .flo-mobile-menu__menu > li:after {
+    border-color: var(--scheme_1--text--accent) !important;
+  }
+  .flo-mobile-menu--infos-hochzeitsreportage .flo-mobile-menu__menu > .children-visible .flo-mobile-menu__menu-dropdown-toggle {
+    color: var(--scheme_1--text--accent) !important;
+  }
+  .flo-mobile-menu--infos-hochzeitsreportage .flo-mobile-menu__menu-dropdown-toggle {
+    color: var(--scheme_1--text--accent) !important;
+  }
+  .flo-mobile-menu--infos-hochzeitsreportage .flo-mobile-menu__search-wrap {
+  }
+}
+/* Seiteninhalt */
+@media (max-width: 767px) {
+  .flo-block--header {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+}
+@media (min-width: 768px) {
+  .flo-block--header {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+}
+@media (max-width: 767px) {
+  .flo-block--infos-hochzeitsreportage-1 {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+}
+@media (min-width: 768px) {
+  .flo-block--infos-hochzeitsreportage-1 {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .flex-block--blockID--55f852932ec2 {
+    --html-font-size: 1.25vw;
+    --height: 51.3438em;
+    --bg-color: var(--scheme_1--background--default);
+    --margin-top: 0em;
+    --margin-bottom: 0em;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .flex-block--blockID--55f852932ec2 {
+    --html-font-size: 4.2666666666667vw;
+    --height: 51.90625em;
+    --bg-color: var(--scheme_1--background--default);
+    --margin-top: 0em;
+    --margin-bottom: 0em;
+  }
+}
+.flex-block__element--block-blockID--55f852932ec2.flex-block__element--element_id_67875 {
+  --el-width: 80em;
+  --el-width-tablet: 80em;
+  --el-height: 35em;
+  --el-height-tablet: 35em;
+  --el-actual-height: 35em;
+  --el-actual-height-tablet: 35em;
+  --position-top: 0em;
+  --position-top-tablet: 0em;
+  --position-left: 0em;
+  --position-left-tablet: 0em;
+  --rotateDeg: 0deg;
+  --z-index: 1;
+  opacity: 1;
+  --border-radius: 0px;
+  --object-size: cover;
+  --object-position-x: 0%;
+  --object-position-y: 38.056759959531%;
+}
+@media only screen and (max-width: 767px) {
+  .flex-block__element--block-blockID--55f852932ec2.flex-block__element--element_id_67875 {
+    --el-width: 23.4375em;
+    --el-width-tablet: 23.4375em;
+    --el-height: 20.625em;
+    --el-height-tablet: 20.625em;
+    --el-actual-height: 20.625em;
+    --el-actual-height-tablet: 20.625em;
+    --position-top: 0em;
+    --position-top-tablet: 0em;
+    --position-left: 0em;
+    --position-left-tablet: 0em;
+    --rotateDeg: 0deg;
+    --z-index: 1;
+    opacity: 1;
+    --border-radius: 0px;
+    --object-size: cover;
+    --object-position-x: 52.827893127571%;
+    --object-position-y: 0%;
+  }
+}
+.flex-block__element--block-blockID--55f852932ec2.flex-block__element--element_id_91920 {
+  --el-width: 47.5em;
+  --el-width-tablet: 47.5em;
+  --el-height: 21.28125em;
+  --el-height-tablet: 21.28125em;
+  --el-actual-height: 21.28125em;
+  --el-actual-height-tablet: 21.28125em;
+  --position-top: 27.3125em;
+  --position-top-tablet: 27.3125em;
+  --position-left: 5.625em;
+  --position-left-tablet: 5.625em;
+  --rotateDeg: 0deg;
+  --z-index: 3;
+  --border-radius: 0px;
+  --backgroundColor: var(--scheme_1--background--default);
+}
+@media only screen and (max-width: 767px) {
+  .flex-block__element--block-blockID--55f852932ec2.flex-block__element--element_id_91920 {
+    --el-width: 19.6875em;
+    --el-width-tablet: 19.6875em;
+    --el-height: 23.15625em;
+    --el-height-tablet: 23.15625em;
+    --el-actual-height: 23.15625em;
+    --el-actual-height-tablet: 23.15625em;
+    --position-top: 17.75em;
+    --position-top-tablet: 17.75em;
+    --position-left: 1.875em;
+    --position-left-tablet: 1.875em;
+    --rotateDeg: 0deg;
+    --z-index: 3;
+    --border-radius: 0px;
+    --backgroundColor: var(--scheme_1--background--default);
+  }
+}
+.flex-block__element--block-blockID--55f852932ec2.flex-block__element--element_id_28460 {
+  --el-width: 34.5625em;
+  --el-width-tablet: 34.5625em;
+  --el-height: 3.75em;
+  --el-height-tablet: 3.75em;
+  --el-actual-height: 3.75em;
+  --el-actual-height-tablet: 3.75em;
+  --position-top: 29.46875em;
+  --position-top-tablet: 29.46875em;
+  --position-left: 11.5625em;
+  --position-left-tablet: 11.5625em;
+  --rotateDeg: 0deg;
+  --z-index: 5;
+  --border-radius: 0px;
+  --text-vertical-align: flex-start;
+  --text-align: left;
+  --el-height: auto;
+  --el-paddings: 0em 0em;
+}
+@media only screen and (max-width: 767px) {
+  .flex-block__element--block-blockID--55f852932ec2.flex-block__element--element_id_28460 {
+    --el-width: 16.625em;
+    --el-width-tablet: 16.625em;
+    --el-height: 1.625em;
+    --el-height-tablet: 1.625em;
+    --el-actual-height: 1.625em;
+    --el-actual-height-tablet: 1.625em;
+    --position-top: 19.71875em;
+    --position-top-tablet: 19.71875em;
+    --position-left: 3.40625em;
+    --position-left-tablet: 3.40625em;
+    --rotateDeg: 0deg;
+    --z-index: 5;
+    --border-radius: 0px;
+    --text-vertical-align: flex-start;
+    --text-align: center;
+    --font-family: NewYork;
+    --el-height: auto;
+    --el-paddings: 0em 0em;
+  }
+}
+.flex-block__element--block-blockID--55f852932ec2.flex-block__element--element_id_10805 {
+  --el-width: 36.40625em;
+  --el-width-tablet: 36.40625em;
+  --el-height: 12em;
+  --el-height-tablet: 12em;
+  --el-actual-height: 12em;
+  --el-actual-height-tablet: 12em;
+  --position-top: 34.4375em;
+  --position-top-tablet: 34.4375em;
+  --position-left: 11.5625em;
+  --position-left-tablet: 11.5625em;
+  --rotateDeg: 0deg;
+  --z-index: 4;
+  --border-radius: 0px;
+  --text-vertical-align: flex-start;
+  --text-align: left;
+  --el-height: auto;
+  --el-paddings: 0em 0em;
+}
+@media only screen and (max-width: 767px) {
+  .flex-block__element--block-blockID--55f852932ec2.flex-block__element--element_id_10805 {
+    --el-width: 18.625em;
+    --el-width-tablet: 18.625em;
+    --el-height: 22.5em;
+    --el-height-tablet: 22.5em;
+    --el-actual-height: 22.5em;
+    --el-actual-height-tablet: 22.5em;
+    --position-top: 22.8125em;
+    --position-top-tablet: 22.8125em;
+    --position-left: 2.40625em;
+    --position-left-tablet: 2.40625em;
+    --rotateDeg: 0deg;
+    --z-index: 4;
+    --border-radius: 0px;
+    --text-vertical-align: flex-start;
+    --text-align: center;
+    --el-height: auto;
+    --el-paddings: 0em 0em;
+  }
+}
+.flex-block__element--block-blockID--55f852932ec2.flex-block__element--element_id_22966 {
+  --el-width: 9.34375em;
+  --el-width-tablet: 9.34375em;
+  --el-height: 2.875em;
+  --el-height-tablet: 2.875em;
+  --el-actual-height: 2.875em;
+  --el-actual-height-tablet: 2.875em;
+  --position-top: 43.21875em;
+  --position-top-tablet: 43.21875em;
+  --position-left: 53.125em;
+  --position-left-tablet: 53.125em;
+  --rotateDeg: 0deg;
+  --z-index: 2;
+  --border-radius: 0px;
+  --backgroundColor: #c7a485;
+  --button-color: var(--scheme_1--button--text--default);
+  --text-align: center;
+  --font-family: Lato;
+  --hover-color: var(--scheme_1--button--text--hover);
+  --hover-background-color: var(--scheme_1--button--background--hover);
+}
+@media only screen and (max-width: 767px) {
+  .flex-block__element--block-blockID--55f852932ec2.flex-block__element--element_id_22966 {
+    --el-width: 8.46875em;
+    --el-width-tablet: 8.46875em;
+    --el-height: 2.84375em;
+    --el-height-tablet: 2.84375em;
+    --el-actual-height: 2.84375em;
+    --el-actual-height-tablet: 2.84375em;
+    --position-top: 46.875em;
+    --position-top-tablet: 46.875em;
+    --position-left: 7.48438em;
+    --position-left-tablet: 7.48438em;
+    --rotateDeg: 0deg;
+    --z-index: 2;
+    --border-radius: 0px;
+    --backgroundColor: #c7a485;
+    --button-color: var(--scheme_1--button--text--default);
+    --text-align: center;
+    --font-family: Lato;
+    --hover-color: var(--scheme_1--button--text--hover);
+    --hover-background-color: var(--scheme_1--button--background--hover);
+  }
+}
+@media (max-width: 767px) {
+  .flo-block--infos-hochzeitsreportage-2 {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+}
+@media (min-width: 768px) {
+  .flo-block--infos-hochzeitsreportage-2 {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .flex-block--blockID--99c71a6dc050 {
+    --html-font-size: 1.25vw;
+    --height: 44.6875em;
+    --bg-color: var(--scheme_1--background--default);
+    --margin-top: 0em;
+    --margin-bottom: 0em;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .flex-block--blockID--99c71a6dc050 {
+    --html-font-size: 4.2666666666667vw;
+    --height: 24.40625em;
+    --bg-color: var(--scheme_1--background--default);
+    --margin-top: 0em;
+    --margin-bottom: 0em;
+  }
+}
+.flex-block__element--block-blockID--99c71a6dc050.flex-block__element--element_id_c2dac5d2c619 {
+  --el-width: 35.09375em;
+  --el-width-tablet: 35.09375em;
+  --el-height: 25.125em;
+  --el-height-tablet: 25.125em;
+  --el-actual-height: 25.125em;
+  --el-actual-height-tablet: 25.125em;
+  --position-top: 1.78125em;
+  --position-top-tablet: 1.78125em;
+  --position-left: 31.45313em;
+  --position-left-tablet: 31.45313em;
+  --rotateDeg: 0deg;
+  --z-index: 3;
+  opacity: 1;
+  --border-radius: 0px;
+  --object-size: cover;
+  --object-position-x: 50%;
+  --object-position-y: 50%;
+}
+@media only screen and (max-width: 767px) {
+  .flex-block__element--block-blockID--99c71a6dc050.flex-block__element--element_id_c2dac5d2c619 {
+    --el-width: 13.875em;
+    --el-width-tablet: 13.875em;
+    --el-height: 9.3125em;
+    --el-height-tablet: 9.3125em;
+    --el-actual-height: 9.3125em;
+    --el-actual-height-tablet: 9.3125em;
+    --position-top: 5.5625em;
+    --position-top-tablet: 5.5625em;
+    --position-left: 8.21875em;
+    --position-left-tablet: 8.21875em;
+    --rotateDeg: 0deg;
+    --z-index: 4;
+    opacity: 1;
+    --border-radius: 0px;
+    --object-size: cover;
+    --object-position-x: 50%;
+    --object-position-y: 50%;
+  }
+}
+.flex-block__element--block-blockID--99c71a6dc050.flex-block__element--element_id_31e223cda11a {
+  --el-width: 23.03125em;
+  --el-width-tablet: 23.03125em;
+  --el-height: 19.78125em;
+  --el-height-tablet: 19.78125em;
+  --el-actual-height: 19.78125em;
+  --el-actual-height-tablet: 19.78125em;
+  --position-top: 7.5em;
+  --position-top-tablet: 7.5em;
+  --position-left: 31.07813em;
+  --position-left-tablet: 31.07813em;
+  --rotateDeg: 0deg;
+  --z-index: 2;
+  --border-radius: 0px;
+  --backgroundColor: var(--scheme_1--background--default);
+}
+@media only screen and (max-width: 767px) {
+  .flex-block__element--block-blockID--99c71a6dc050.flex-block__element--element_id_31e223cda11a {
+    --el-width: 11.15625em;
+    --el-width-tablet: 11.15625em;
+    --el-height: 10.3125em;
+    --el-height-tablet: 10.3125em;
+    --el-actual-height: 10.3125em;
+    --el-actual-height-tablet: 10.3125em;
+    --position-top: 5.40625em;
+    --position-top-tablet: 5.40625em;
+    --position-left: 8.0625em;
+    --position-left-tablet: 8.0625em;
+    --rotateDeg: 0deg;
+    --z-index: 3;
+    --border-radius: 0px;
+    --backgroundColor: var(--scheme_1--background--default);
+  }
+}
+.flex-block__element--block-blockID--99c71a6dc050.flex-block__element--element_id_2716a7ceda86 {
+  --el-width: 22.34375em;
+  --el-width-tablet: 22.34375em;
+  --el-height: 29.5625em;
+  --el-height-tablet: 29.5625em;
+  --el-actual-height: 29.5625em;
+  --el-actual-height-tablet: 29.5625em;
+  --position-top: 8.84375em;
+  --position-top-tablet: 8.84375em;
+  --position-left: 13.45313em;
+  --position-left-tablet: 13.45313em;
+  --rotateDeg: 0deg;
+  --z-index: 1;
+  opacity: 1;
+  --border-radius: 0px;
+  --object-size: cover;
+  --object-position-x: 50%;
+  --object-position-y: 50%;
+}
+@media only screen and (max-width: 767px) {
+  .flex-block__element--block-blockID--99c71a6dc050.flex-block__element--element_id_2716a7ceda86 {
+    --el-width: 8.5em;
+    --el-width-tablet: 8.5em;
+    --el-height: 11.84375em;
+    --el-height-tablet: 11.84375em;
+    --el-actual-height: 11.84375em;
+    --el-actual-height-tablet: 11.84375em;
+    --position-top: 1.5625em;
+    --position-top-tablet: 1.5625em;
+    --position-left: 1.34375em;
+    --position-left-tablet: 1.34375em;
+    --rotateDeg: 0deg;
+    --z-index: 2;
+    opacity: 1;
+    --border-radius: 0px;
+    --object-size: cover;
+    --object-position-x: 50%;
+    --object-position-y: 50%;
+  }
+}
+.flex-block__element--block-blockID--99c71a6dc050.flex-block__element--element_id_fb05b1bf765d {
+  --el-width: 15.40625em;
+  --el-width-tablet: 15.40625em;
+  --el-height: 1.5em;
+  --el-height-tablet: 1.5em;
+  --el-actual-height: 1.5em;
+  --el-actual-height-tablet: 1.5em;
+  --position-top: 30em;
+  --position-top-tablet: 30em;
+  --position-left: 40.53125em;
+  --position-left-tablet: 40.53125em;
+  --rotateDeg: 0deg;
+  --z-index: 4;
+  --border-radius: 0px;
+  --text-vertical-align: flex-start;
+  --text-align: left;
+  --el-height: auto;
+  --el-paddings: 0em 0em;
+}
+@media only screen and (max-width: 767px) {
+  .flex-block__element--block-blockID--99c71a6dc050.flex-block__element--element_id_fb05b1bf765d {
+    --el-width: 4.1875em;
+    --el-width-tablet: 4.1875em;
+    --el-height: 1.5em;
+    --el-height-tablet: 1.5em;
+    --el-actual-height: 1.5em;
+    --el-actual-height-tablet: 1.5em;
+    --position-top: 16.15625em;
+    --position-top-tablet: 16.15625em;
+    --position-left: 4.875em;
+    --position-left-tablet: 4.875em;
+    --rotateDeg: 0deg;
+    --z-index: 1;
+    --border-radius: 0px;
+    --text-vertical-align: flex-start;
+    --text-align: left;
+    --el-height: auto;
+    --el-paddings: 0em 0em;
+  }
+}
+.flex-block__element--block-blockID--99c71a6dc050.flex-block__element--element_id_88524df2005b {
+  --el-width: 34.09375em;
+  --el-width-tablet: 34.09375em;
+  --el-height: 3.75em;
+  --el-height-tablet: 3.75em;
+  --el-actual-height: 3.75em;
+  --el-actual-height-tablet: 3.75em;
+  --position-top: 31.125em;
+  --position-top-tablet: 31.125em;
+  --position-left: 38.4375em;
+  --position-left-tablet: 38.4375em;
+  --rotateDeg: 0deg;
+  --z-index: 5;
+  --border-radius: 0px;
+  --text-vertical-align: flex-start;
+  --text-align: left;
+  --el-height: auto;
+  --el-paddings: 0em 0em;
+}
+@media only screen and (max-width: 767px) {
+  .flex-block__element--block-blockID--99c71a6dc050.flex-block__element--element_id_88524df2005b {
+    --el-width: 15.875em;
+    --el-width-tablet: 15.875em;
+    --el-height: 1.875em;
+    --el-height-tablet: 1.875em;
+    --el-actual-height: 1.875em;
+    --el-actual-height-tablet: 1.875em;
+    --position-top: 17.21875em;
+    --position-top-tablet: 17.21875em;
+    --position-left: 3.78125em;
+    --position-left-tablet: 3.78125em;
+    --rotateDeg: 0deg;
+    --z-index: 5;
+    --border-radius: 0px;
+    --text-vertical-align: flex-start;
+    --text-align: left;
+    --font-family: NewYork;
+    --el-height: auto;
+    --el-paddings: 0em 0em;
+  }
+}
+@media (max-width: 767px) {
+  .flo-block--infos-hochzeitsreportage-3 {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+}
+@media (min-width: 768px) {
+  .flo-block--infos-hochzeitsreportage-3 {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .flex-block--blockID--741251cd8b5b {
+    --html-font-size: 1.25vw;
+    --height: 33.25em;
+    --bg-color: #eadfd4;
+    --margin-top: 0em;
+    --margin-bottom: 0em;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .flex-block--blockID--741251cd8b5b {
+    --html-font-size: 4.2666666666667vw;
+    --height: 45.875em;
+    --bg-color: #e9ded2;
+    --margin-top: 0em;
+    --margin-bottom: 0em;
+  }
+}
+.flex-block__element--block-blockID--741251cd8b5b.flex-block__element--element_id_ad4be17d99c6 {
+  --el-width: 68.75em;
+  --el-width-tablet: 68.75em;
+  --el-height: 1px;
+  --el-height-tablet: 1px;
+  --el-actual-height: 1px;
+  --el-actual-height-tablet: 1px;
+  --position-top: 3.6875em;
+  --position-top-tablet: 3.6875em;
+  --position-left: 5.625em;
+  --position-left-tablet: 5.625em;
+  --rotateDeg: 0deg;
+  --z-index: 3;
+  --border-radius: 0px;
+  --backgroundColor: #eee;
+}
+@media only screen and (max-width: 767px) {
+  .flex-block__element--block-blockID--741251cd8b5b.flex-block__element--element_id_ad4be17d99c6 {
+    --el-width: 19.59375em;
+    --el-width-tablet: 19.59375em;
+    --el-height: 1px;
+    --el-height-tablet: 1px;
+    --el-actual-height: 1px;
+    --el-actual-height-tablet: 1px;
+    --position-top: 2.84375em;
+    --position-top-tablet: 2.84375em;
+    --position-left: 1.90625em;
+    --position-left-tablet: 1.90625em;
+    --rotateDeg: 180deg;
+    --z-index: 1;
+    --border-radius: 0px;
+    --backgroundColor: #eee;
+  }
+}
+.flex-block__element--block-blockID--741251cd8b5b.flex-block__element--element_id_3650f824ec8a {
+  --el-width: 68.75em;
+  --el-width-tablet: 68.75em;
+  --el-height: 3.1875em;
+  --el-height-tablet: 3.1875em;
+  --el-actual-height: 3.1875em;
+  --el-actual-height-tablet: 3.1875em;
+  --position-top: 3.75em;
+  --position-top-tablet: 3.75em;
+  --position-left: 5.625em;
+  --position-left-tablet: 5.625em;
+  --rotateDeg: 0deg;
+  --z-index: 2;
+}
+@media only screen and (max-width: 767px) {
+  .flex-block__element--block-blockID--741251cd8b5b.flex-block__element--element_id_3650f824ec8a {
+    --el-width: 19.6875em;
+    --el-width-tablet: 19.6875em;
+    --el-height: 10.21875em;
+    --el-height-tablet: 10.21875em;
+    --el-actual-height: 10.21875em;
+    --el-actual-height-tablet: 10.21875em;
+    --position-top: 3.75em;
+    --position-top-tablet: 3.75em;
+    --position-left: 1.875em;
+    --position-left-tablet: 1.875em;
+    --rotateDeg: 0deg;
+    --z-index: 2;
+  }
+}
+.flex-block__element--block-blockID--741251cd8b5b.flex-block__element--element_id_f94a881ba70a {
+  --el-width: 39.0625em;
+  --el-width-tablet: 39.0625em;
+  --el-height: 22.875em;
+  --el-height-tablet: 22.875em;
+  --el-actual-height: 22.875em;
+  --el-actual-height-tablet: 22.875em;
+  --position-top: 9.21875em;
+  --position-top-tablet: 9.21875em;
+  --position-left: 20.46875em;
+  --position-left-tablet: 20.46875em;
+  --rotateDeg: 0deg;
+  --z-index: 1;
+}
+@media only screen and (max-width: 767px) {
+  .flex-block__element--block-blockID--741251cd8b5b.flex-block__element--element_id_f94a881ba70a {
+    --el-width: 19.6875em;
+    --el-width-tablet: 19.6875em;
+    --el-height: 27.3125em;
+    --el-height-tablet: 27.3125em;
+    --el-actual-height: 27.3125em;
+    --el-actual-height-tablet: 27.3125em;
+    --position-top: 15.53125em;
+    --position-top-tablet: 15.53125em;
+    --position-left: 1.9375em;
+    --position-left-tablet: 1.9375em;
+    --rotateDeg: 0deg;
+    --z-index: 3;
+  }
+}
+@media (max-width: 767px) {
+  .flo-block--infos-hochzeitsreportage-4 {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+}
+@media (min-width: 768px) {
+  .flo-block--infos-hochzeitsreportage-4 {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .flex-block--blockID--5fb4f7b7018b {
+    --html-font-size: 1.25vw;
+    --height: 33.7813em;
+    --bg-color: var(--scheme_1--background--default);
+    --margin-top: 0em;
+    --margin-bottom: 0em;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .flex-block--blockID--5fb4f7b7018b {
+    --html-font-size: 4.2666666666667vw;
+    --height: 32.78125em;
+    --bg-color: var(--scheme_1--background--accent);
+    --margin-top: 0em;
+    --margin-bottom: 0em;
+  }
+}
+.flex-block__element--block-blockID--5fb4f7b7018b.flex-block__element--element_id_93859 {
+  --el-width: 80.15625em;
+  --el-width-tablet: 80.15625em;
+  --el-height: 28.6875em;
+  --el-height-tablet: 28.6875em;
+  --el-actual-height: 28.6875em;
+  --el-actual-height-tablet: 28.6875em;
+  --position-top: 0em;
+  --position-top-tablet: 0em;
+  --position-left: -0.07813em;
+  --position-left-tablet: -0.07813em;
+  --rotateDeg: 0deg;
+  --z-index: 1;
+  opacity: 1;
+  --border-radius: 0px;
+  --object-size: cover;
+  --object-position-x: 0%;
+  --object-position-y: 52.405043679783%;
+}
+@media only screen and (max-width: 767px) {
+  .flex-block__element--block-blockID--5fb4f7b7018b.flex-block__element--element_id_93859 {
+    --el-width: 23.4375em;
+    --el-width-tablet: 23.4375em;
+    --el-height: 41.25em;
+    --el-height-tablet: 41.25em;
+    --el-actual-height: 41.25em;
+    --el-actual-height-tablet: 41.25em;
+    --position-top: -0.15625em;
+    --position-top-tablet: -0.15625em;
+    --position-left: 0.01563em;
+    --position-left-tablet: 0.01563em;
+    --rotateDeg: 0deg;
+    --z-index: 1;
+    opacity: 1;
+    --border-radius: 0px;
+    --object-size: cover;
+    --object-position-x: 67.377314462393%;
+    --object-position-y: 0%;
+  }
+}
+.flex-block__element--block-blockID--5fb4f7b7018b.flex-block__element--element_id_72326 {
+  --el-width: 45em;
+  --el-width-tablet: 45em;
+  --el-height: 1.2em;
+  --el-height-tablet: 1.2em;
+  --el-actual-height: 1.2em;
+  --el-actual-height-tablet: 1.2em;
+  --position-top: 7.9375em;
+  --position-top-tablet: 7.9375em;
+  --position-left: 17.54688em;
+  --position-left-tablet: 17.54688em;
+  --rotateDeg: 0deg;
+  --z-index: 3;
+  --border-radius: 0px;
+  --text-vertical-align: flex-start;
+  --text-align: center;
+  --el-height: auto;
+  --el-paddings: 0em 0em;
+}
+@media only screen and (max-width: 767px) {
+  .flex-block__element--block-blockID--5fb4f7b7018b.flex-block__element--element_id_72326 {
+    --el-width: 21.40625em;
+    --el-width-tablet: 21.40625em;
+    --el-height: 1.5em;
+    --el-height-tablet: 1.5em;
+    --el-actual-height: 1.5em;
+    --el-actual-height-tablet: 1.5em;
+    --position-top: 6.34375em;
+    --position-top-tablet: 6.34375em;
+    --position-left: 1.0625em;
+    --position-left-tablet: 1.0625em;
+    --rotateDeg: 0deg;
+    --z-index: 3;
+    --border-radius: 0px;
+    --text-vertical-align: flex-start;
+    --text-align: center;
+    --el-height: auto;
+    --el-paddings: 0em 0em;
+  }
+}
+.flex-block__element--block-blockID--5fb4f7b7018b.flex-block__element--element_id_39633 {
+  --el-width: 45em;
+  --el-width-tablet: 45em;
+  --el-height: 1.2em;
+  --el-height-tablet: 1.2em;
+  --el-actual-height: 1.2em;
+  --el-actual-height-tablet: 1.2em;
+  --position-top: 10.0625em;
+  --position-top-tablet: 10.0625em;
+  --position-left: 17.5em;
+  --position-left-tablet: 17.5em;
+  --rotateDeg: 0deg;
+  --z-index: 2;
+  --border-radius: 0px;
+  --text-vertical-align: flex-start;
+  --text-align: center;
+  --el-height: auto;
+  --el-paddings: 0em 0em;
+}
+@media only screen and (max-width: 767px) {
+  .flex-block__element--block-blockID--5fb4f7b7018b.flex-block__element--element_id_39633 {
+    --el-width: 20.9375em;
+    --el-width-tablet: 20.9375em;
+    --el-height: 5em;
+    --el-height-tablet: 5em;
+    --el-actual-height: 5em;
+    --el-actual-height-tablet: 5em;
+    --position-top: 8.125em;
+    --position-top-tablet: 8.125em;
+    --position-left: 1.28125em;
+    --position-left-tablet: 1.28125em;
+    --rotateDeg: 0deg;
+    --z-index: 2;
+    --border-radius: 0px;
+    --text-vertical-align: flex-start;
+    --text-align: center;
+    --font-family: NewYork;
+    --el-height: auto;
+    --el-paddings: 0em 0em;
+  }
+}
+.flex-block__element--block-blockID--5fb4f7b7018b.flex-block__element--element_id_30066 {
+  --el-width: 38.90625em;
+  --el-width-tablet: 38.90625em;
+  --el-height: 3.6em;
+  --el-height-tablet: 3.6em;
+  --el-actual-height: 3.6em;
+  --el-actual-height-tablet: 3.6em;
+  --position-top: 15.46875em;
+  --position-top-tablet: 15.46875em;
+  --position-left: 20.54688em;
+  --position-left-tablet: 20.54688em;
+  --rotateDeg: 0deg;
+  --z-index: 4;
+  --border-radius: 0px;
+  --text-vertical-align: flex-start;
+  --text-align: center;
+  --el-height: auto;
+  --el-paddings: 0em 0em;
+}
+@media only screen and (max-width: 767px) {
+  .flex-block__element--block-blockID--5fb4f7b7018b.flex-block__element--element_id_30066 {
+    --el-width: 17.21875em;
+    --el-width-tablet: 17.21875em;
+    --el-height: 7.5em;
+    --el-height-tablet: 7.5em;
+    --el-actual-height: 7.5em;
+    --el-actual-height-tablet: 7.5em;
+    --position-top: 15.09375em;
+    --position-top-tablet: 15.09375em;
+    --position-left: 3.14063em;
+    --position-left-tablet: 3.14063em;
+    --rotateDeg: 0deg;
+    --z-index: 4;
+    --border-radius: 0px;
+    --text-vertical-align: flex-start;
+    --text-align: center;
+    --el-height: auto;
+    --el-paddings: 0em 0em;
+  }
+}
+.flex-block__element--block-blockID--5fb4f7b7018b.flex-block__element--element_id_17723 {
+  --el-width: 10.5em;
+  --el-width-tablet: 10.5em;
+  --el-height: 2.875em;
+  --el-height-tablet: 2.875em;
+  --el-actual-height: 2.875em;
+  --el-actual-height-tablet: 2.875em;
+  --position-top: 20.59375em;
+  --position-top-tablet: 20.59375em;
+  --position-left: 34.75em;
+  --position-left-tablet: 34.75em;
+  --rotateDeg: 0deg;
+  --z-index: 5;
+  --border-radius: 0px;
+  --backgroundColor: #c7a485;
+  --button-color: var(--scheme_1--button--text--default);
+  --text-align: center;
+  --font-family: Lato;
+  --hover-color: var(--scheme_1--button--text--hover);
+  --hover-background-color: var(--scheme_1--button--background--hover);
+}
+@media only screen and (max-width: 767px) {
+  .flex-block__element--block-blockID--5fb4f7b7018b.flex-block__element--element_id_17723 {
+    --el-width: 11em;
+    --el-width-tablet: 11em;
+    --el-height: 2.875em;
+    --el-height-tablet: 2.875em;
+    --el-actual-height: 2.875em;
+    --el-actual-height-tablet: 2.875em;
+    --position-top: 24.65625em;
+    --position-top-tablet: 24.65625em;
+    --position-left: 6.21875em;
+    --position-left-tablet: 6.21875em;
+    --rotateDeg: 0deg;
+    --z-index: 5;
+    --border-radius: 0px;
+    --backgroundColor: #c7a485;
+    --button-color: var(--scheme_1--button--text--default);
+    --text-align: center;
+    --font-family: Lato;
+    --hover-color: var(--scheme_1--button--text--hover);
+    --hover-background-color: var(--scheme_1--button--background--hover);
+  }
+}
+@media (max-width: 767px) {
+  .flo-block--infos-hochzeitsreportage-5 {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+}
+@media (min-width: 768px) {
+  .flo-block--infos-hochzeitsreportage-5 {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .flex-block--blockID--30cd9a66d4a7 {
+    --html-font-size: 1.25vw;
+    --height: 21.9063em;
+    --bg-color: var(--scheme_1--background--default);
+    --margin-top: 0em;
+    --margin-bottom: 0em;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .flex-block--blockID--30cd9a66d4a7 {
+    --html-font-size: 4.2666666666667vw;
+    --height: 30.0625em;
+    --bg-color: var(--scheme_1--background--default);
+    --margin-top: 0em;
+    --margin-bottom: 0em;
+  }
+}
+.flex-block__element--block-blockID--30cd9a66d4a7.flex-block__element--element_id_368816ca9aec {
+  --el-width: 45em;
+  --el-width-tablet: 45em;
+  --el-height: 17.59375em;
+  --el-height-tablet: 17.59375em;
+  --el-actual-height: 17.59375em;
+  --el-actual-height-tablet: 17.59375em;
+  --position-top: 2.5em;
+  --position-top-tablet: 2.5em;
+  --position-left: 29.375em;
+  --position-left-tablet: 29.375em;
+  --rotateDeg: 0deg;
+  --z-index: 1;
+}
+@media only screen and (max-width: 767px) {
+  .flex-block__element--block-blockID--30cd9a66d4a7.flex-block__element--element_id_368816ca9aec {
+    --el-width: 22em;
+    --el-width-tablet: 22em;
+    --el-height: 16.46875em;
+    --el-height-tablet: 16.46875em;
+    --el-actual-height: 16.46875em;
+    --el-actual-height-tablet: 16.46875em;
+    --position-top: 12.1875em;
+    --position-top-tablet: 12.1875em;
+    --position-left: 0.71875em;
+    --position-left-tablet: 0.71875em;
+    --rotateDeg: 0deg;
+    --z-index: 2;
+  }
+}
+.flex-block__element--block-blockID--30cd9a66d4a7.flex-block__element--element_id_a04ce6610564 {
+  --el-width: 20.25em;
+  --el-width-tablet: 20.25em;
+  --el-height: 3.75em;
+  --el-height-tablet: 3.75em;
+  --el-actual-height: 3.75em;
+  --el-actual-height-tablet: 3.75em;
+  --position-top: 2.5em;
+  --position-top-tablet: 2.5em;
+  --position-left: 5.625em;
+  --position-left-tablet: 5.625em;
+  --rotateDeg: 0deg;
+  --z-index: 2;
+  --border-radius: 0px;
+  --text-vertical-align: flex-start;
+  --text-align: left;
+  --el-height: auto;
+  --el-paddings: 0em 0em;
+}
+@media only screen and (max-width: 767px) {
+  .flex-block__element--block-blockID--30cd9a66d4a7.flex-block__element--element_id_a04ce6610564 {
+    --el-width: 19.6875em;
+    --el-width-tablet: 19.6875em;
+    --el-height: 3.75em;
+    --el-height-tablet: 3.75em;
+    --el-actual-height: 3.75em;
+    --el-actual-height-tablet: 3.75em;
+    --position-top: 3.125em;
+    --position-top-tablet: 3.125em;
+    --position-left: 1.875em;
+    --position-left-tablet: 1.875em;
+    --rotateDeg: 0deg;
+    --z-index: 1;
+    --border-radius: 0px;
+    --text-vertical-align: flex-start;
+    --text-align: center;
+    --el-height: auto;
+    --el-paddings: 0em 0em;
+  }
+}
+.flex-block__element--block-blockID--30cd9a66d4a7.flex-block__element--element_id_17bc6f5fd45b {
+  --el-width: 2.75em;
+  --el-width-tablet: 2.75em;
+  --el-height: 2.125em;
+  --el-height-tablet: 2.125em;
+  --el-actual-height: 2.125em;
+  --el-actual-height-tablet: 2.125em;
+  --position-top: 12.3125em;
+  --position-top-tablet: 12.3125em;
+  --position-left: 9.625em;
+  --position-left-tablet: 9.625em;
+  --rotateDeg: 0deg;
+  --z-index: 3;
+}
+@media only screen and (max-width: 767px) {
+  .flex-block__element--block-blockID--30cd9a66d4a7.flex-block__element--element_id_17bc6f5fd45b {
+    --el-width: 2.75em;
+    --el-width-tablet: 2.75em;
+    --el-height: 2.125em;
+    --el-height-tablet: 2.125em;
+    --el-actual-height: 2.125em;
+    --el-actual-height-tablet: 2.125em;
+    --position-top: 8.75em;
+    --position-top-tablet: 8.75em;
+    --position-left: 11.90625em;
+    --position-left-tablet: 11.90625em;
+    --rotateDeg: 0deg;
+    --z-index: 4;
+  }
+}
+.flex-block__element--block-blockID--30cd9a66d4a7.flex-block__element--element_id_cda38db27dd4 {
+  --el-width: 2.75em;
+  --el-width-tablet: 2.75em;
+  --el-height: 2.125em;
+  --el-height-tablet: 2.125em;
+  --el-actual-height: 2.125em;
+  --el-actual-height-tablet: 2.125em;
+  --position-top: 12.3125em;
+  --position-top-tablet: 12.3125em;
+  --position-left: 5.625em;
+  --position-left-tablet: 5.625em;
+  --rotateDeg: 0deg;
+  --z-index: 4;
+}
+@media only screen and (max-width: 767px) {
+  .flex-block__element--block-blockID--30cd9a66d4a7.flex-block__element--element_id_cda38db27dd4 {
+    --el-width: 2.75em;
+    --el-width-tablet: 2.75em;
+    --el-height: 2.125em;
+    --el-height-tablet: 2.125em;
+    --el-actual-height: 2.125em;
+    --el-actual-height-tablet: 2.125em;
+    --position-top: 8.75em;
+    --position-top-tablet: 8.75em;
+    --position-left: 8.78125em;
+    --position-left-tablet: 8.78125em;
+    --rotateDeg: 0deg;
+    --z-index: 3;
+  }
+}
+@media (max-width: 767px) {
+  .flo-block--infos-hochzeitsreportage-6 {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+}
+@media (min-width: 768px) {
+  .flo-block--infos-hochzeitsreportage-6 {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+}

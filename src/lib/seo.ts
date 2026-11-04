@@ -1,0 +1,164 @@
+import type { Metadata } from "next";
+import { BUSINESS, SITE_URL } from "./business";
+import { getImage, srcOf } from "./images";
+import startseite from "@content/seiten/startseite.json";
+import hochzeiten from "@content/seiten/hochzeiten.json";
+import paare from "@content/seiten/paare.json";
+import familien from "@content/seiten/familien.json";
+import portfolio from "@content/seiten/portfolio.json";
+import info from "@content/seiten/info.json";
+import ueberMich from "@content/seiten/ueber-mich.json";
+import kontakt from "@content/seiten/kontakt.json";
+
+type Slot = { bild: string; alt: string };
+
+export type PageSeo = {
+  path: string;
+  /** <title> – keyword first, brand last, ≈ 60 characters */
+  title: string;
+  /** meta description, ≈ 150 characters */
+  description: string;
+  /** share image (Open Graph / WhatsApp / Pinterest preview) */
+  image?: Slot;
+  /** schema.org page type for the structured data */
+  type: "WebPage" | "CollectionPage" | "AboutPage" | "ContactPage" | "FAQPage";
+  /** breadcrumb name */
+  name: string;
+  priority: number;
+};
+
+export const PAGE_SEO = {
+  home: {
+    path: "/",
+    title: "Hochzeitsfotografin Hagen & NRW | Jana Vogel Fotografie",
+    description:
+      "Natürliche, emotionale Hochzeitsreportagen, Paar- und Familienshootings: Ich bin Jana, Hochzeitsfotografin aus Hagen – für euch in ganz NRW unterwegs.",
+    image: startseite.slideshow[0],
+    type: "WebPage",
+    name: "Startseite",
+    priority: 1,
+  },
+  hochzeiten: {
+    path: "/hochzeiten/",
+    title: "Hochzeitsfotografie in Hagen & NRW – Galerie | Jana Vogel",
+    description:
+      "Hochzeitsfotos voller Gefühl – vom Getting-Ready über die Trauung bis zur Party, ungestellt und unauffällig. Eure Hochzeitsfotografin aus Hagen für ganz NRW.",
+    image: hochzeiten.bild01,
+    type: "CollectionPage",
+    name: "Hochzeiten",
+    priority: 0.9,
+  },
+  paare: {
+    path: "/paare/",
+    title: "Paarshooting in Hagen & NRW – Galerie | Jana Vogel Fotografie",
+    description:
+      "Paarshooting in Hagen & NRW: wild-romantisch, klassisch oder ein bisschen verrückt – entspannte, natürliche Paarfotos, die eure Geschichte erzählen.",
+    image: paare.bild01,
+    type: "CollectionPage",
+    name: "Paare",
+    priority: 0.9,
+  },
+  familien: {
+    path: "/familien/",
+    title: "Familienfotografin in Hagen & NRW | Jana Vogel Fotografie",
+    description:
+      "Familienfotografie in Hagen & NRW: Babybauch-, Newborn-, Homestory- und Familienshootings – ungestellt, entspannt und voller Liebe festgehalten.",
+    image: familien.bild01,
+    type: "CollectionPage",
+    name: "Familien",
+    priority: 0.9,
+  },
+  portfolio: {
+    path: "/portfolio/",
+    title: "Portfolio: Hochzeiten, Paare & Familien | Jana Vogel Fotografie",
+    description:
+      "Ein Blick in mein Portfolio: Hochzeitsreportagen, Paarshootings und Familienfotos aus Hagen und ganz NRW – natürlich, emotional und ungestellt.",
+    image: portfolio.bild01,
+    type: "CollectionPage",
+    name: "Portfolio",
+    priority: 0.8,
+  },
+  "infos-hochzeitsreportage": {
+    path: "/infos-hochzeitsreportage/",
+    title: "Hochzeitsreportage: Ablauf, Infos & FAQ | Jana Vogel Fotografie",
+    description:
+      "So läuft eure Hochzeitsreportage ab: Kennenlerngespräch, euer großer Tag, After-Wedding-Shooting und Antworten auf häufige Fragen – Hochzeitsfotografin aus Hagen.",
+    image: info.bild01,
+    type: "FAQPage",
+    name: "Info",
+    priority: 0.8,
+  },
+  "ueber-mich": {
+    path: "/ueber-mich/",
+    title: "Über mich – Jana Vogel, Fotografin aus Hagen",
+    description:
+      "Hallo, ich bin Jana – Naturliebhaberin und Fotografin mit Leidenschaft. Erfahrt mehr über mich und meine Arbeit als Hochzeits- und Familienfotografin in Hagen.",
+    image: ueberMich.bild01,
+    type: "AboutPage",
+    name: "Über mich",
+    priority: 0.7,
+  },
+  kontakt: {
+    path: "/kontakt/",
+    title: "Kontakt & Anfrage | Jana Vogel – Hochzeitsfotografin Hagen",
+    description:
+      "Ihr plant eure Hochzeit oder ein Shooting? Schreibt mir – ich melde mich innerhalb von 48 Stunden. Hochzeits- & Familienfotografin aus Hagen, NRW.",
+    image: kontakt.bild01,
+    type: "ContactPage",
+    name: "Kontakt",
+    priority: 0.7,
+  },
+  impressum: {
+    path: "/impressum/",
+    title: "Impressum | Jana Vogel Fotografie",
+    description: "Impressum von Jana Vogel Fotografie, Hochzeits- und Familienfotografin aus Hagen.",
+    type: "WebPage",
+    name: "Impressum",
+    priority: 0.2,
+  },
+  datenschutz: {
+    path: "/datenschutz/",
+    title: "Datenschutzerklärung | Jana Vogel Fotografie",
+    description: "Datenschutzerklärung von Jana Vogel Fotografie, Hagen.",
+    type: "WebPage",
+    name: "Datenschutz",
+    priority: 0.2,
+  },
+} satisfies Record<string, PageSeo>;
+
+export type PageKey = keyof typeof PAGE_SEO;
+
+/** Share image for a CMS image: the 1200×630 JPEG generated by scripts/images.mjs (fallback: WebP variant). */
+export function ogImage(slot: Slot | string | undefined) {
+  const src = typeof slot === "string" ? slot : slot?.bild;
+  const info = getImage(src);
+  if (!info) return [];
+  const alt = typeof slot === "object" && slot.alt ? slot.alt : BUSINESS.name;
+  if (info.og) return [{ url: info.og, width: 1200, height: 630, alt, type: "image/jpeg" }];
+  const url = srcOf(info, 1200);
+  const w = Number(url.match(/-(\d+)\.webp$/)?.[1] ?? info.w);
+  return [{ url, width: w, height: Math.round((w * info.h) / info.w), alt }];
+}
+
+/** Next.js metadata for a page (title, description, canonical, Open Graph, Twitter). */
+export function pageMetadata(key: PageKey): Metadata {
+  const page: PageSeo = PAGE_SEO[key];
+  const images = ogImage(page.image ?? PAGE_SEO.home.image);
+  return {
+    title: { absolute: page.title },
+    description: page.description,
+    alternates: { canonical: page.path },
+    openGraph: {
+      type: "website",
+      locale: "de_DE",
+      siteName: BUSINESS.name,
+      title: page.title,
+      description: page.description,
+      url: page.path,
+      images,
+    },
+    twitter: { card: "summary_large_image", title: page.title, description: page.description, images: images.map((i) => i.url) },
+  };
+}
+
+export const absoluteUrl = (path: string) => new URL(path, SITE_URL).toString();
