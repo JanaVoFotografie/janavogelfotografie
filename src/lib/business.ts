@@ -13,7 +13,7 @@ export const BUSINESS = {
   email: "info@janavogelfotografie.de",
   telephone: "+49 157 51127909",
   address: {
-    streetAddress: "Kolbenstraße 2",
+    streetAddress: "Holthauser Straße 31",
     postalCode: "58093",
     addressLocality: "Hagen",
     addressRegion: "Nordrhein-Westfalen",

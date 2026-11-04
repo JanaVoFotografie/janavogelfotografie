@@ -73,7 +73,7 @@ export default function Page() {
                     <p>
                       <span style={{ color: "var(--scheme_1--button--background--default)" }}>
                         <span className="has-inline-font" style={{ fontFamily: "Lato" }}>
-                          Kolbenstraße 2
+                          Holthauser Straße 31
                         </span>
                       </span>
                     </p>
