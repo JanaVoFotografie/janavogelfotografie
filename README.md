@@ -55,8 +55,15 @@ Jana ist die Besitzerin, Moritz ist Mitarbeiter (Collaborator).
 2. Auf [vercel.com/new](https://vercel.com/new) das Repository importieren. Das Framework „Next.js“ wird erkannt,
    weitere Einstellungen sind nicht nötig. Die Serverless-Funktion fürs Kontaktformular läuft in Frankfurt (`vercel.json`).
 3. Umgebungsvariablen fürs Kontaktformular eintragen (siehe unten).
-4. Domain verbinden: in Vercel unter *Settings → Domains* `janavogelfotografie.de` und `www.janavogelfotografie.de`
-   hinzufügen und die angezeigten DNS-Einträge bei Strato setzen (A-Record bzw. CNAME).
+4. Domain verbinden: In Vercel ist `janavogelfotografie.de` schon als Hauptdomain eingetragen, `www.` leitet per 308
+   dorthin um. Bei Strato diese DNS-Einträge setzen (sie stehen auch in Vercel unter *Settings → Domains*):
+
+   | Typ   | Name | Wert                                   |
+   | ----- | ---- | -------------------------------------- |
+   | A     | @    | `216.198.79.1`                         |
+   | CNAME | www  | `6c212f6a3068a6bf.vercel-dns-017.com.` |
+
+   Den **AAAA-Eintrag (IPv6)** bei Strato entfernen, sonst landen manche Besucher weiter auf dem alten Server.
    **Die MX-Einträge (E-Mail) bei Strato nicht anfassen**, sonst funktioniert das Postfach nicht mehr.
 
 > ⚠️ **Vercel „Hobby“ (kostenlos) ist laut Vercel-Nutzungsbedingungen nur für nicht-kommerzielle Projekte erlaubt.**
