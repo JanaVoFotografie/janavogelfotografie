@@ -90,7 +90,7 @@ Konsole ausgegeben (Vorlage: `.env.example` → `.env.local`).
 Fotos werden mit **[Pages CMS](https://pagescms.org)** verwaltet. Das ist kostenlos (Open Source, kein Abo), läuft im
 Browser und braucht keine Programmierkenntnisse.
 
-**Einmalig einrichten (mit Janas GitHub-Konto `JanaVoFotografie`)**
+**Einmalig einrichten (mit Janas GitHub-Konto `JanaVoFotografie`), am 4. November 2026 erledigt**
 
 1. Auf [app.pagescms.org](https://app.pagescms.org) mit **„Sign in with GitHub“** anmelden.
 2. Pages CMS bittet darum, seine GitHub-App zu installieren. GitHub zeigt dabei eine Art Bestellseite
@@ -99,8 +99,7 @@ Browser und braucht keine Programmierkenntnisse.
    `janavogelfotografie` auswählen.
 
 **Anmelden**: Danach genügt auf [app.pagescms.org](https://app.pagescms.org) **„Sign in with GitHub“**. Die $0-Seite
-kommt nur bei der ersten Installation. Helfer ohne GitHub-Konto kann Jana in Pages CMS unter **Collaborators** per
-E-Mail einladen; sie melden sich dann mit „Continue with email“ an.
+kommt nur bei der ersten Installation.
 
 **Galerie bearbeiten** (*Galerie: Hochzeiten / Paare / Familien*)
 
