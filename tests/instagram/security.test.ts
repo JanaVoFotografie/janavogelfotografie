@@ -85,14 +85,16 @@ test("one authenticated request verifies the intended account and includes media
     assert.ok(url.searchParams.get("fields")?.includes("media.limit(25)"));
     assert.equal(url.searchParams.has("access_token"), false);
     assert.equal(new Headers(options?.headers).get("authorization"), "Bearer test-secret");
-    return Response.json({ username: "janazuenkeler", media: { data: [] } });
+    return Response.json({ username: "janavogelfotografie", media: { data: [] } });
   }) as typeof fetch;
   assert.deepEqual(await fetchLatestMedia(config, "test-secret", fetcher), []);
   assert.equal(count, 1);
-  await assert.rejects(
-    fetchLatestMedia(config, "test-secret", (async () => Response.json({ username: "someone_else", media: { data: [] } })) as typeof fetch),
-    /instagram_account_mismatch/,
-  );
+  for (const username of ["janazuenkeler", "someone_else"]) {
+    await assert.rejects(
+      fetchLatestMedia(config, "test-secret", async () => Response.json({ username, media: { data: [] } })),
+      /instagram_account_mismatch/,
+    );
+  }
 });
 
 test("snapshot validation refuses Meta image sources and non-Instagram click targets", () => {
