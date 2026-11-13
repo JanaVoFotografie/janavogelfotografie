@@ -202,7 +202,7 @@ Ein paar Hintergründe:
 
 - **Datenschutzerklärung aktualisieren** (bitte rechtlich prüfen lassen): Hosting ist jetzt Vercel (statt Strato),
   das Kontaktformular verschickt per E-Mail, Google Analytics/Google Fonts werden nicht mehr genutzt, es werden keine
-  Cookies gesetzt. Der Cookie-Hinweis ist aus optischen Gründen noch drin, technisch aber nicht mehr nötig –
-  entfernen: `<CookieNotice />` in `src/app/layout.tsx` löschen.
+  Cookies für Werbung oder Webanalyse gesetzt. Der bisherige Cookie-Hinweis und seine eigene Speicherung in
+  `localStorage` wurden entfernt, da die Website derzeit keine einwilligungspflichtigen Tracking-Funktionen nutzt.
 - `wp-backup/` enthält alle Original-Uploads der alten Seite (≈ 300 MB, nicht im Git) – bitte sichern,
   bevor die WordPress-Seite abgeschaltet wird.

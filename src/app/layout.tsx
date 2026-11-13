@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { preload } from "react-dom";
-import { CookieNotice } from "@/components/CookieNotice";
 import { JsonLd } from "@/components/JsonLd";
 import { BUSINESS, SITE_URL } from "@/lib/business";
 import { siteGraph } from "@/lib/structured-data";
@@ -55,7 +54,6 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body>
         <JsonLd data={siteGraph()} />
         {children}
-        <CookieNotice />
       </body>
     </html>
   );

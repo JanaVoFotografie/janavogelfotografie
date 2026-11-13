@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { useId } from "react";
 import { MENU_LEFT, MENU_RIGHT, menuItemClass, type NavItem } from "@/lib/nav";
 import { MobileMenu, MobileMenuTrigger } from "./MobileMenu";
 
@@ -35,19 +36,44 @@ function MenuList({ items, current }: { items: NavItem[]; current: string }) {
 }
 
 export function Logo({ variant, className, alt = "Jana Vogel Fotografie" }: { variant: Variant; className: string; alt?: string }) {
+  const id = useId();
   return (
     <>
       {["default", "sticky", "light"].map((kind) =>
         className === "flo-header-mobile__logo-image" && kind === "sticky" ? null : (
-          <img
+          <svg
             key={kind}
             className={`${className} ${className}--${kind}`}
             width={150}
             height={81.5}
-            src={LOGO[variant]}
-            // only the visible logo gets a text; the theme's hidden duplicates are decorative
-            alt={kind === "default" ? alt : ""}
-          />
+            style={{ verticalAlign: "middle" }}
+            viewBox="0 0 300 163"
+            role="img"
+            aria-label={kind === "default" ? alt : undefined}
+            aria-hidden={kind !== "default" || undefined}
+          >
+            {/* The supplied PNG cuts through the tagline's bottom edge. Keep the original mark
+                and name, and render only that line as scalable text with space below it. */}
+            <defs>
+              <clipPath id={`${id}-${kind}`}>
+                <rect width="300" height="145" />
+              </clipPath>
+            </defs>
+            <image href={LOGO[variant]} width="300" height="163" clipPath={`url(#${id}-${kind})`} />
+            <text
+              x="82"
+              y="161"
+              textLength="138"
+              lengthAdjust="spacingAndGlyphs"
+              fontFamily="Lato, sans-serif"
+              fontSize="15.5"
+              fontWeight="300"
+              letterSpacing="3.4"
+              fill={variant === "home" ? "white" : "black"}
+            >
+              FOTOGRAFIE
+            </text>
+          </svg>
         ),
       )}
     </>
@@ -84,7 +110,10 @@ export function HeaderBar({ page, current }: { page: string; current: string }) 
             </div>
           </div>
         </div>
-        <div className={`flo-header-mobile flo-header-mobile--logo-center flo-header-mobile--${page} not-sticky`} style={{ visibility: "visible" }}>
+        <div
+          className={`flo-header-mobile flo-header-mobile--logo-center flo-header-mobile--${page} not-sticky`}
+          style={{ visibility: "visible" }}
+        >
           <div className="flo-header-mobile__spacer"></div>
           <MaybeHeading heading={variant === "home"}>
             <Link prefetch={false} href="/" className="flo-header-mobile__logo">

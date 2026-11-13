@@ -10,12 +10,16 @@ import { FIELDS, HONEYPOT, MESSAGES, validate, type Values } from "@/lib/contact
  *   CONTACT_FROM sender address (default: SMTP_USER)
  */
 export async function POST(request: Request) {
-  let body: { values?: Values; [HONEYPOT]?: string };
+  let parsed: unknown;
   try {
-    body = await request.json();
+    parsed = await request.json();
   } catch {
     return Response.json({ error: MESSAGES.error }, { status: 400 });
   }
+  if (parsed === null || typeof parsed !== "object" || Array.isArray(parsed)) {
+    return Response.json({ error: MESSAGES.error }, { status: 400 });
+  }
+  const body = parsed as { values?: Values; [HONEYPOT]?: string };
 
   // Bots fill the hidden field – pretend success and drop the message.
   if (body[HONEYPOT]) return Response.json({ ok: true });
