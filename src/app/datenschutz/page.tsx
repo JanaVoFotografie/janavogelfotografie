@@ -46,72 +46,25 @@ export default function Page() {
           </p>
           <h2>EINBINDUNG VON DIENSTEN UND INHALTEN DRITTER</h2>
           <p>
-            Es kann vorkommen, dass innerhalb dieses Onlineangebotes Inhalte Dritter, wie zum Beispiel Videos von YouTube, Kartenmaterial
-            von Google-Maps, Google Fonts, RSS-Feeds oder Grafiken von anderen Webseiten eingebunden werden. Dies setzt immer voraus, dass
-            die Anbieter dieser Inhalte (nachfolgend bezeichnet als „Dritt-Anbieter“) die IP-Adresse der Nutzer wahrnehmen. Denn ohne die
-            IP-Adresse, könnten sie die Inhalte nicht an den Browser des jeweiligen Nutzers senden. Die IP-Adresse ist damit für die
-            Darstellung dieser Inhalte erforderlich. Ich bemühe mich nur solche Inhalte zu verwenden, deren jeweilige Anbieter die
-            IP-Adresse lediglich zur Auslieferung der Inhalte verwenden. Jedoch habe ich keinen Einfluss darauf, falls die Dritt-Anbieter
-            die IP-Adresse z.B. für statistische Zwecke speichern. Soweit dies mir bekannt ist, kläre ich die Nutzer darüber auf.
+            Die verwendeten Schriftarten werden zusammen mit dieser Website ausgeliefert. Es werden keine Schriftarten von Google Fonts und
+            keine externen Social-Media-Widgets geladen.
           </p>
           <h2>INSTAGRAM</h2>
           <p>
-            Ich setze auf meiner Website den Dienst Instagram ein. Instagram ist ein Service der Instagram Inc. Durch den eingebundenen
-            „Insta“-Button auf meiner Seite erhält Instagram die Information, dass Sie die entsprechende Seite meines Internetauftritts
-            aufgerufen haben. Sind Sie bei Instagram eingeloggt, kann Instagram diesen Besuch auf meiner Seite Ihrem Instagram -Konto
-            zuordnen und die Daten somit verknüpfen. Die durch Anklicken des „Insta“-Buttons übermittelten Daten werden von Instagram
-            gespeichert. Zu Zweck und Umfang der Datenerhebung, deren Verarbeitung und Nutzung sowie Ihren diesbezüglichen Rechten und
-            Einstellungsmöglichkeiten zum Schutz Ihrer Privatsphäre erhalten Sie weitere Informationen in den Instagram
-            -Datenschutzhinweisen, die Sie
-          </p>
-          <p>
-            über&nbsp;https://help.instagram.com/155833707900388&nbsp;abrufen können. Um zu verhindern, dass Instagram den Besuch meiner
-            Seite Ihrem Instagram-Konto zuordnen kann, müssen Sie sich vor dem Besuch meiner Seite von Ihrem Instagram-Account abmelden.
+            Auf dieser Website finden Sie Links zu meinem Instagram-Profil und zu einzelnen Instagram-Beiträgen. Die Vorschaubilder werden
+            auf dem von mir genutzten Hosting zwischengespeichert und von dort geladen; beim Anzeigen dieser Vorschau stellt Ihr Browser
+            keine Verbindung zu Instagram her. Ein Instagram-Widget ist nicht eingebunden. Wenn Sie einen Instagram-Link öffnen, verlassen
+            Sie diese Website. Für die dortige Verarbeitung Ihrer Daten gelten die Datenschutzhinweise von Instagram:
+            https://help.instagram.com/155833707900388.
           </p>
           <h2>PINTEREST</h2>
           <p>
-            Innerhalb meines Onlineangebotes können Funktionen und Inhalte des Dienstes Pinterest, angeboten durch die Pinterest Inc., 635
-            High Street, Palo Alto, CA, 94301, USA, eingebunden werden. Hierzu können z.B. Inhalte wie Bilder, Videos oder Texte und
-            Schaltflächen gehören, mit denen Nutzer Inhalte dieses Onlineangebotes innerhalb von Pinterest teilen können. Sofern die Nutzer
-            Mitglieder der Plattform Pinterest sind, kann Pinterest den Aufruf der o.g. Inhalte und Funktionen den dortigen Profilen der
-            Nutzer zuordnen. Datenschutzerklärung von Pinterest:&nbsp;https://about.pinterest.com/de/privacy-policy.
+            Diese Website enthält einen Link zu meinem Pinterest-Profil. Ein Pinterest-Widget ist nicht eingebunden. Wenn Sie den Link
+            öffnen, verlassen Sie diese Website. Für die dortige Verarbeitung Ihrer Daten gelten die Datenschutzhinweise von Pinterest:
+            https://about.pinterest.com/de/privacy-policy.
           </p>
-          <h2>GOOGLE ANALYTICS</h2>
-          <p>
-            Ich setze auf Grundlage meiner berechtigten Interessen (d.h. Interesse an der Analyse, Optimierung und wirtschaftlichem Betrieb
-            meines Onlineangebotes im Sinne des Art. 6 Abs. 1 lit. f. DSGVO) Google Analytics, einen Webanalysedienst der Google LLC
-            („Google“) ein. Google verwendet Cookies. Die durch das Cookie erzeugten Informationen über Benutzung des Onlineangebotes durch
-            die Nutzer werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert.
-          </p>
-          <p>
-            Google ist unter dem Privacy-Shield-Abkommen zertifiziert und bietet hierdurch eine Garantie, das europäische Datenschutzrecht
-            einzuhalten (https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active).
-          </p>
-          <p>
-            Google wird diese Informationen in meinem Auftrag benutzen, um die Nutzung meines Onlineangebotes durch die Nutzer auszuwerten,
-            um Reports über die Aktivitäten innerhalb dieses Onlineangebotes zusammenzustellen und um weitere, mit der Nutzung dieses
-            Onlineangebotes und der Internetnutzung verbundene Dienstleistungen, mir gegenüber zu erbringen. Dabei können aus den
-            verarbeiteten Daten pseudonyme Nutzungsprofile der Nutzer erstellt werden.
-          </p>
-          <p>
-            Ich setze Google Analytics nur mit aktivierter IP-Anonymisierung ein. Das bedeutet, die IP-Adresse der Nutzer wird von Google
-            innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen
-            Wirtschaftsraum gekürzt. Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und
-            dort gekürzt.
-          </p>
-          <p>
-            Die von dem Browser des Nutzers übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt. Die Nutzer
-            können die Speicherung der Cookies durch eine entsprechende Einstellung ihrer Browser-Software verhindern; die Nutzer können
-            darüber hinaus die Erfassung der durch das Cookie erzeugten und auf ihre Nutzung des Onlineangebotes bezogenen Daten an Google
-            sowie die Verarbeitung dieser Daten durch Google verhindern, indem sie das unter folgendem Link verfügbare Browser-Plugin
-            herunterladen und installieren:&nbsp;http://tools.google.com/dlpage/gaoptout?hl=de.
-          </p>
-          <p>
-            Weitere Informationen zur Datennutzung durch Google, Einstellungs- und Widerspruchsmöglichkeiten, erfahren Sie in der
-            Datenschutzerklärung von Google (https://policies.google.com/technologies/ads) sowie in den Einstellungen für die Darstellung
-            von Werbeeinblendungen durch Google (https://adssettings.google.com/authenticated).Die personenbezogenen Daten der Nutzer werden
-            nach 14 Monaten gelöscht oder anonymisiert.
-          </p>
+          <h2>COOKIES UND WEBANALYSE</h2>
+          <p>Auf dieser Website werden keine Cookies zu Analyse- oder Werbezwecken gesetzt. Google Analytics wird nicht eingesetzt.</p>
           <h2>AUSKUNFT/WIDERRUF/LÖSCHUNG</h2>
           <p>
             Sie können sich aufgrund des Bundesdatenschutzgesetzes bei Fragen zur Erhebung, Verarbeitung oder Nutzung Ihrer
