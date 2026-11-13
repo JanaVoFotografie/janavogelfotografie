@@ -10,7 +10,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test:instagram": "node --conditions=react-server --import tsx --test tests/instagram/*.test.ts"
+    "test:instagram": "node --conditions=react-server --import tsx --test tests/instagram/*.test.ts",
+    "test:contact": "node --import tsx --test tests/contact-form/*.test.ts"
   },
   "dependencies": {
     "@vercel/blob": "^2.9.0",
