@@ -26,23 +26,26 @@ export default function Page() {
           <p>58093 Hagen</p>
           <p>Deutschland</p>
           <p>info@janavogelfotografie.de</p>
-          <p>Impressum: http://janavogelfotografie.de/impressum</p>
+          <p>Impressum: https://janavogelfotografie.de/impressum/</p>
           <h2>DATENSCHUTZ</h2>
           <p>
-            Die Nutzung meiner Seite ist ohne eine Angabe von personenbezogenen Daten möglich. Für die Nutzung einzelner Services meiner
-            Seite können sich hierfür abweichende Regelungen ergeben, die in diesem Falle nachstehend gesondert erläutert werden. Ihre
-            personenbezogenen Daten (z.B. Name, Anschrift, E-Mail, Telefonnummer, u.ä.) werden von mir nur gemäß den Bestimmungen des
-            deutschen Datenschutzrechts verarbeitet. Daten sind dann personenbezogen, wenn sie eindeutig einer bestimmten natürlichen Person
-            zugeordnet werden können. Die rechtlichen Grundlagen des Datenschutzes finden Sie im Bundesdatenschutzgesetz (BDSG) und dem
-            Telemediengesetz (TMG). Nachstehende Regelungen informieren Sie insoweit über die Art, den Umfang und Zweck der Erhebung, die
-            Nutzung und die Verarbeitung von personenbezogenen Daten durch den Anbieter.
+            Sie können diese Website besuchen, ohne aktiv Kontaktangaben zu übermitteln. Technische Anfragedaten werden dabei wie im
+            Abschnitt zum Hosting beschrieben verarbeitet. Wenn Sie Kontakt mit mir aufnehmen, verarbeite ich außerdem die von Ihnen
+            übermittelten Angaben. Die Verarbeitung personenbezogener Daten richtet sich nach der Datenschutz-Grundverordnung (DSGVO) und
+            den ergänzenden deutschen Datenschutzbestimmungen.
+          </p>
+          <h2>HOSTING</h2>
+          <p>
+            Diese Website wird über Vercel bereitgestellt. Für die Auslieferung und den Betrieb der Website verarbeitet der Hostinganbieter
+            technische Anfragedaten, insbesondere Ihre IP-Adresse, die aufgerufene Adresse und die von Ihrem Browser übermittelten
+            HTTP-Header. Auch Anfragen über das Kontaktformular werden auf der Hosting-Plattform verarbeitet.
           </p>
           <h2>KONTAKT</h2>
           <p>
-            Auf meiner Website biete ich Ihnen die Möglichkeit, mit mir per E-Mail in Verbindung zu treten. In diesem Fall werden die vom
-            Nutzer gemachten Angaben zum Zwecke der Bearbeitung seiner Kontaktaufnahme gespeichert. Eine Weitergabe an Dritte erfolgt nicht.
-            Ein Abgleich der so erhobenen Daten mit Daten, die möglicherweise durch andere Komponenten meiner Seite erhoben werden, erfolgt
-            ebenfalls nicht.
+            Sie können mich über das Kontaktformular oder per E-Mail erreichen. Die Angaben aus dem Kontaktformular werden serverseitig
+            verarbeitet und per E-Mail an mein Postfach weitergeleitet. Ich verwende Ihre Angaben, um Ihre Anfrage zu bearbeiten und Ihnen
+            zu antworten. Für die technische Verarbeitung und Übermittlung werden Vercel als Hostinganbieter und STRATO als Anbieter meines
+            E-Mail-Postfachs eingesetzt.
           </p>
           <h2>EINBINDUNG VON DIENSTEN UND INHALTEN DRITTER</h2>
           <p>
@@ -51,11 +54,11 @@ export default function Page() {
           </p>
           <h2>INSTAGRAM</h2>
           <p>
-            Auf dieser Website finden Sie Links zu meinem Instagram-Profil und zu einzelnen Instagram-Beiträgen. Die Vorschaubilder werden
-            auf dem von mir genutzten Hosting zwischengespeichert und von dort geladen; beim Anzeigen dieser Vorschau stellt Ihr Browser
-            keine Verbindung zu Instagram her. Ein Instagram-Widget ist nicht eingebunden. Wenn Sie einen Instagram-Link öffnen, verlassen
-            Sie diese Website. Für die dortige Verarbeitung Ihrer Daten gelten die Datenschutzhinweise von Instagram:
-            https://help.instagram.com/155833707900388.
+            Auf dieser Website finden Sie einen Link zu meinem Instagram-Profil. Wenn Vorschaubilder von Instagram-Beiträgen angezeigt
+            werden, sind diese mit dem jeweiligen Beitrag verlinkt. Die Vorschaubilder werden auf dem von mir genutzten Hosting
+            zwischengespeichert und von dort geladen; beim Anzeigen dieser Vorschau stellt Ihr Browser keine Verbindung zu Instagram her.
+            Ein Instagram-Widget ist nicht eingebunden. Wenn Sie einen Instagram-Link öffnen, verlassen Sie diese Website. Für die dortige
+            Verarbeitung Ihrer Daten gelten die Datenschutzhinweise von Instagram: https://help.instagram.com/155833707900388.
           </p>
           <h2>PINTEREST</h2>
           <p>
