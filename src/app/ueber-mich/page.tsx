@@ -9,6 +9,37 @@ import "./page.css";
 
 export const metadata = pageMetadata("ueber-mich");
 
+const FACTS = [
+  ["Die erste Regel, wenn ich nach Hause komme, lautet: Klamotten aus und Jogginghose an."],
+  ["Einfach mal abhängen und entspannen? Das ist leider nichts für mich. Ich muss immer etwas unternehmen."],
+  ["Nah am Wasser gebaut? Oh ja, das bin ich. Traurige Tränen, Freudentränen – ich bin sofort mit dabei."],
+  ["Holland ist mein absolutes Lieblingsland. Von den Menschen über die tollen Cafés bis hin zum Interiordesign – ich liebe alles hier."],
+  ["Mein größter Traum dreht sich trotzdem um ein anderes Land: Norwegen. Eine Rundreise mit dem Camper... das wär's."],
+  ["Ich mag keine Schokolade. Nie. Ohne Ausnahmen.", "Dafür liebe ich meine Familie. Immer. Ohne Ausnahmen."],
+  ["Ich bin ein kleines Murmeltier – um spätestens 22 Uhr ist bei mir deswegen Nachtruhe angesagt. Auch am Wochenende."],
+  ["Ich bin überhaupt keine Shopping Queen. Wieso auch? Alles, was ich brauche, gibt es schließlich auch im Internet."],
+  ["Und last but not least: Ich bin ein Freak. Genau gesagt, ein Ordnungs-Freak. Aber lieber das, als das totale Chaos, oder?"],
+];
+
+function Facts({ start, items }: { start: number; items: string[][] }) {
+  return (
+    <ol className={`jv-facts jv-facts--${start === 1 ? "first" : "second"}`} start={start} role="list">
+      {items.map((paragraphs, index) => (
+        <li className="jv-fact" key={start + index}>
+          <span className="jv-fact__number" aria-hidden="true">
+            {start + index}.
+          </span>
+          <div className="jv-fact__text" data-font="3114d2aa8c46">
+            {paragraphs.map((paragraph) => (
+              <p key={paragraph}>{paragraph}</p>
+            ))}
+          </div>
+        </li>
+      ))}
+    </ol>
+  );
+}
+
 export default function Page() {
   return (
     <main className="flo_page_wrap">
@@ -101,274 +132,8 @@ export default function Page() {
                   <FlexImg className="flex-img-tag" image={bilder.bild02} box={{ d: [23, 33.1], m: [60.4, 85.3] }} />
                 </div>
                 <div className="flex-block__element flex-block__element--element_id_d22c0b221d16 flex-block__element--shape flex-block__element--block-blockID--add29d5ea2d4"></div>
-                <div
-                  className="flex-block__element flex-block__element--element_id_3c5503e69b1c flex-block__element--text flex-block__element--block-blockID--add29d5ea2d4 flex-block__element--editorTagsFix"
-                  style={{ "--font-size": "2.1875rem", "--line-height": "1.65em", "--letter-spacing": "0em" }}
-                  data-only-device="desktop"
-                >
-                  <div className="flex-block__text-content height-auto">
-                    <p>
-                      <span style={{ color: "var(--scheme_1--background--default)" }}>6.</span>
-                    </p>
-                  </div>
-                </div>
-                <div
-                  className="flex-block__element flex-block__element--element_id_3c5503e69b1c flex-block__element--text flex-block__element--block-blockID--add29d5ea2d4 flex-block__element--editorTagsFix"
-                  style={{ "--font-size": "1.875rem", "--line-height": "1.65em", "--letter-spacing": "0em" }}
-                  data-only-device="mobile"
-                >
-                  <div className="flex-block__text-content height-auto">
-                    <p>
-                      <span style={{ color: "var(--scheme_1--background--default)" }}>6.</span>
-                    </p>
-                  </div>
-                </div>
-                <div
-                  className="flex-block__element flex-block__element--element_id_58dd0223fab2 flex-block__element--text flex-block__element--block-blockID--add29d5ea2d4 flex-block__element--editorTagsFix"
-                  style={{ "--font-size": "2.1875rem", "--line-height": "1.65em", "--letter-spacing": "0em" }}
-                  data-only-device="desktop"
-                >
-                  <div className="flex-block__text-content height-auto">
-                    <p>
-                      <span style={{ color: "var(--scheme_1--background--default)" }}>1.</span>
-                    </p>
-                  </div>
-                </div>
-                <div
-                  className="flex-block__element flex-block__element--element_id_58dd0223fab2 flex-block__element--text flex-block__element--block-blockID--add29d5ea2d4 flex-block__element--editorTagsFix"
-                  style={{ "--font-size": "1.875rem", "--line-height": "1.65em", "--letter-spacing": "0em" }}
-                  data-only-device="mobile"
-                >
-                  <div className="flex-block__text-content height-auto">
-                    <p>
-                      <span style={{ color: "var(--scheme_1--background--default)" }}>1.</span>
-                    </p>
-                  </div>
-                </div>
-                <div className="flex-block__element flex-block__element--element_id_66fa9e618dde flex-block__element--text flex-block__element--block-blockID--add29d5ea2d4 flex-block__element--editorTagsFix">
-                  <div data-font="3114d2aa8c46" className="flex-block__text-content height-auto">
-                    <p>
-                      <span style={{ color: "var(--scheme_1--background--default)" }}>Ich mag keine Schokolade. Nie. Ohne Ausnahmen.</span>
-                    </p>
-                    <p>
-                      <span style={{ color: "var(--scheme_1--background--default)" }}>
-                        Dafür liebe ich meine Familie. Immer. Ohne Ausnahmen.
-                      </span>
-                    </p>
-                    <div className="spacer"></div>
-                    <p>
-                      <span style={{ color: "var(--scheme_1--background--default)" }}>
-                        Ich bin ein kleines Murmeltier – um spätestens 22 Uhr ist bei mir deswegen Nachtruhe angesagt. Auch am Wochenende.
-                      </span>
-                    </p>
-                    <div className="spacer"></div>
-                    <p>
-                      <span style={{ color: "var(--scheme_1--background--default)" }}>
-                        Ich bin überhaupt keine Shopping Queen. Wieso auch? Alles, was ich brauche, gibt es schließlich auch im Internet.
-                      </span>
-                    </p>
-                    <div className="spacer"></div>
-                    <p>
-                      <span style={{ color: "var(--scheme_1--background--default)" }}>
-                        Und last but not least: Ich bin ein Freak. Genau gesagt, ein Ordnungs-Freak. Aber lieber das, als das totale Chaos,
-                        oder?
-                      </span>
-                    </p>
-                  </div>
-                </div>
-                <div className="flex-block__element flex-block__element--element_id_2dc5c5f12c91 flex-block__element--text flex-block__element--block-blockID--add29d5ea2d4 flex-block__element--editorTagsFix">
-                  <div data-font="3114d2aa8c46" className="flex-block__text-content height-auto">
-                    <p>
-                      <span style={{ color: "var(--scheme_1--background--default)" }}>
-                        <span className="has-inline-font" style={{ fontFamily: "Lato" }}>
-                          Die erste Regel, wenn ich nach Hause komme, lautet: Klamotten aus und Jogginghose an.
-                        </span>
-                      </span>
-                    </p>
-                    <div className="spacer"></div>
-                    <p>
-                      <span style={{ color: "var(--scheme_1--background--default)" }}>
-                        <span className="has-inline-font" style={{ fontFamily: "Lato" }}>
-                          Einfach mal abhängen und entspannen? Das ist leider nichts für mich. Ich muss immer etwas unternehmen.
-                        </span>
-                      </span>
-                    </p>
-                    <div className="spacer"></div>
-                    <p>
-                      <span style={{ color: "var(--scheme_1--background--default)" }}>
-                        Nah am Wasser gebaut? Oh ja, das bin ich. Traurige Tränen, Freudentränen – ich bin sofort mit dabei.
-                      </span>
-                    </p>
-                    <div className="spacer"></div>
-                    <p>
-                      <span style={{ color: "var(--scheme_1--background--default)" }}>
-                        Holland ist mein absolutes Lieblingsland. Von den Menschen über die tollen Cafés bis hin zum Interiordesign – ich
-                        liebe alles hier.
-                      </span>
-                    </p>
-                    <div className="spacer"></div>
-                    <p>
-                      <span style={{ color: "var(--scheme_1--background--default)" }}>
-                        Mein größter Traum dreht sich trotzdem um ein anderes Land: Norwegen. Eine Rundreise mit dem Camper... das
-                        wär&apos;s.
-                      </span>
-                    </p>
-                  </div>
-                </div>
-                <div
-                  className="flex-block__element flex-block__element--element_id_bc4df621316b flex-block__element--text flex-block__element--block-blockID--add29d5ea2d4 flex-block__element--editorTagsFix"
-                  style={{ "--font-size": "2.1875rem", "--line-height": "1.65em", "--letter-spacing": "0em" }}
-                  data-only-device="desktop"
-                >
-                  <div className="flex-block__text-content height-auto">
-                    <p>
-                      <span style={{ color: "var(--scheme_1--background--default)" }}>7.</span>
-                    </p>
-                  </div>
-                </div>
-                <div
-                  className="flex-block__element flex-block__element--element_id_bc4df621316b flex-block__element--text flex-block__element--block-blockID--add29d5ea2d4 flex-block__element--editorTagsFix"
-                  style={{ "--font-size": "1.875rem", "--line-height": "1.65em", "--letter-spacing": "0em" }}
-                  data-only-device="mobile"
-                >
-                  <div className="flex-block__text-content height-auto">
-                    <p>
-                      <span style={{ color: "var(--scheme_1--background--default)" }}>7.</span>
-                    </p>
-                  </div>
-                </div>
-                <div
-                  className="flex-block__element flex-block__element--element_id_1e1a0cb34b11 flex-block__element--text flex-block__element--block-blockID--add29d5ea2d4 flex-block__element--editorTagsFix"
-                  style={{ "--font-size": "2.1875rem", "--line-height": "1.65em", "--letter-spacing": "0em" }}
-                  data-only-device="desktop"
-                >
-                  <div className="flex-block__text-content height-auto">
-                    <p>
-                      <span style={{ color: "var(--scheme_1--background--default)" }}>2.</span>
-                    </p>
-                  </div>
-                </div>
-                <div
-                  className="flex-block__element flex-block__element--element_id_1e1a0cb34b11 flex-block__element--text flex-block__element--block-blockID--add29d5ea2d4 flex-block__element--editorTagsFix"
-                  style={{ "--font-size": "1.875rem", "--line-height": "1.65em", "--letter-spacing": "0em" }}
-                  data-only-device="mobile"
-                >
-                  <div className="flex-block__text-content height-auto">
-                    <p>
-                      <span style={{ color: "var(--scheme_1--background--default)" }}>2.</span>
-                    </p>
-                  </div>
-                </div>
-                <div
-                  className="flex-block__element flex-block__element--element_id_b38157256827 flex-block__element--text flex-block__element--block-blockID--add29d5ea2d4 flex-block__element--editorTagsFix"
-                  style={{ "--font-size": "2.1875rem", "--line-height": "1.65em", "--letter-spacing": "0em" }}
-                  data-only-device="desktop"
-                >
-                  <div className="flex-block__text-content height-auto">
-                    <p>
-                      <span style={{ color: "var(--scheme_1--background--default)" }}>8.</span>
-                    </p>
-                  </div>
-                </div>
-                <div
-                  className="flex-block__element flex-block__element--element_id_b38157256827 flex-block__element--text flex-block__element--block-blockID--add29d5ea2d4 flex-block__element--editorTagsFix"
-                  style={{ "--font-size": "1.875rem", "--line-height": "1.65em", "--letter-spacing": "0em" }}
-                  data-only-device="mobile"
-                >
-                  <div className="flex-block__text-content height-auto">
-                    <p>
-                      <span style={{ color: "var(--scheme_1--background--default)" }}>8.</span>
-                    </p>
-                  </div>
-                </div>
-                <div
-                  className="flex-block__element flex-block__element--element_id_e19ceef60d23 flex-block__element--text flex-block__element--block-blockID--add29d5ea2d4 flex-block__element--editorTagsFix"
-                  style={{ "--font-size": "2.1875rem", "--line-height": "1.65em", "--letter-spacing": "0em" }}
-                  data-only-device="desktop"
-                >
-                  <div className="flex-block__text-content height-auto">
-                    <p>
-                      <span style={{ color: "var(--scheme_1--background--default)" }}>3.</span>
-                    </p>
-                  </div>
-                </div>
-                <div
-                  className="flex-block__element flex-block__element--element_id_e19ceef60d23 flex-block__element--text flex-block__element--block-blockID--add29d5ea2d4 flex-block__element--editorTagsFix"
-                  style={{ "--font-size": "1.875rem", "--line-height": "1.65em", "--letter-spacing": "0em" }}
-                  data-only-device="mobile"
-                >
-                  <div className="flex-block__text-content height-auto">
-                    <p>
-                      <span style={{ color: "var(--scheme_1--background--default)" }}>3.</span>
-                    </p>
-                  </div>
-                </div>
-                <div
-                  className="flex-block__element flex-block__element--element_id_75cc43110a13 flex-block__element--text flex-block__element--block-blockID--add29d5ea2d4 flex-block__element--editorTagsFix"
-                  style={{ "--font-size": "2.1875rem", "--line-height": "1.65em", "--letter-spacing": "0em" }}
-                  data-only-device="desktop"
-                >
-                  <div className="flex-block__text-content height-auto">
-                    <p>
-                      <span style={{ color: "var(--scheme_1--background--default)" }}>4.</span>
-                    </p>
-                  </div>
-                </div>
-                <div
-                  className="flex-block__element flex-block__element--element_id_75cc43110a13 flex-block__element--text flex-block__element--block-blockID--add29d5ea2d4 flex-block__element--editorTagsFix"
-                  style={{ "--font-size": "1.875rem", "--line-height": "1.65em", "--letter-spacing": "0em" }}
-                  data-only-device="mobile"
-                >
-                  <div className="flex-block__text-content height-auto">
-                    <p>
-                      <span style={{ color: "var(--scheme_1--background--default)" }}>4.</span>
-                    </p>
-                  </div>
-                </div>
-                <div
-                  className="flex-block__element flex-block__element--element_id_7b979e8cd744 flex-block__element--text flex-block__element--block-blockID--add29d5ea2d4 flex-block__element--editorTagsFix"
-                  style={{ "--font-size": "2.1875rem", "--line-height": "1.65em", "--letter-spacing": "0em" }}
-                  data-only-device="desktop"
-                >
-                  <div className="flex-block__text-content height-auto">
-                    <p>
-                      <span style={{ color: "var(--scheme_1--background--default)" }}>9.</span>
-                    </p>
-                  </div>
-                </div>
-                <div
-                  className="flex-block__element flex-block__element--element_id_7b979e8cd744 flex-block__element--text flex-block__element--block-blockID--add29d5ea2d4 flex-block__element--editorTagsFix"
-                  style={{ "--font-size": "1.875rem", "--line-height": "1.65em", "--letter-spacing": "0em" }}
-                  data-only-device="mobile"
-                >
-                  <div className="flex-block__text-content height-auto">
-                    <p>
-                      <span style={{ color: "var(--scheme_1--background--default)" }}>9.</span>
-                    </p>
-                  </div>
-                </div>
-                <div
-                  className="flex-block__element flex-block__element--element_id_213172811521 flex-block__element--text flex-block__element--block-blockID--add29d5ea2d4 flex-block__element--editorTagsFix"
-                  style={{ "--font-size": "2.1875rem", "--line-height": "1.65em", "--letter-spacing": "0em" }}
-                  data-only-device="desktop"
-                >
-                  <div className="flex-block__text-content height-auto">
-                    <p>
-                      <span style={{ color: "var(--scheme_1--background--default)" }}>5.</span>
-                    </p>
-                  </div>
-                </div>
-                <div
-                  className="flex-block__element flex-block__element--element_id_213172811521 flex-block__element--text flex-block__element--block-blockID--add29d5ea2d4 flex-block__element--editorTagsFix"
-                  style={{ "--font-size": "1.875rem", "--line-height": "1.65em", "--letter-spacing": "0em" }}
-                  data-only-device="mobile"
-                >
-                  <div className="flex-block__text-content height-auto">
-                    <p>
-                      <span style={{ color: "var(--scheme_1--background--default)" }}>5.</span>
-                    </p>
-                  </div>
-                </div>
+                <Facts start={1} items={FACTS.slice(0, 5)} />
+                <Facts start={6} items={FACTS.slice(5)} />
                 <div className="flex-block__element flex-block__element--element_id_188172d7e469 flex-block__element--text flex-block__element--block-blockID--add29d5ea2d4 flex-block__element--editorTagsFix">
                   <div data-font="3114d2aa8c46" className="flex-block__text-content height-auto">
                     <p>

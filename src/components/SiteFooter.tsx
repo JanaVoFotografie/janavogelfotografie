@@ -48,7 +48,7 @@ export function SiteFooter() {
                   <p>
                     <span style={{ color: "var(--scheme_1--background--default)" }}>
                       <span className="has-inline-font" style={{ fontFamily: "Lato" }}>
-                        © 2025 JANA VOGEL FOTOGRAFIE
+                        © 2026 JANA VOGEL FOTOGRAFIE
                       </span>
                     </span>
                   </p>
