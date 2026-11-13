@@ -1,4 +1,4 @@
-export const INSTAGRAM_HANDLE = "janazuenkeler";
+export const INSTAGRAM_HANDLE = "janavogelfotografie";
 export const INSTAGRAM_PROFILE_URL = `https://www.instagram.com/${INSTAGRAM_HANDLE}/`;
 export const INSTAGRAM_CACHE_TAG = "instagram-feed";
 export const DAY = 86_400_000;

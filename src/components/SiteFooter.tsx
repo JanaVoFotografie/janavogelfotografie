@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Suspense } from "react";
+import { INSTAGRAM_HANDLE, INSTAGRAM_PROFILE_URL } from "@/lib/instagram/model";
 import { InstagramFeed } from "./InstagramFeed";
 
 /** Footer (Flex Builder block, identical on every page). */
@@ -29,8 +30,8 @@ export function SiteFooter() {
                   </svg>
                   <a
                     className="flex-block__element--image-link"
-                    href="https://www.instagram.com/janazuenkeler/"
-                    aria-label="Instagram"
+                    href={INSTAGRAM_PROFILE_URL}
+                    aria-label={`Instagram-Profil von @${INSTAGRAM_HANDLE}`}
                     target="_self"
                   ></a>
                 </div>

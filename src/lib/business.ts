@@ -1,6 +1,8 @@
 // Facts about the business – single source for structured data, llms.txt and metadata.
 // Keep in sync with the Impressum (src/app/impressum/page.tsx).
 
+import { INSTAGRAM_PROFILE_URL } from "./instagram/model";
+
 export const SITE_URL = "https://janavogelfotografie.de";
 
 export const BUSINESS = {
@@ -37,7 +39,7 @@ export const BUSINESS = {
     "Sauerland",
     "Nordrhein-Westfalen",
   ],
-  sameAs: ["https://www.instagram.com/janazuenkeler/", "https://www.pinterest.de/janazuenkeler/"],
+  sameAs: [INSTAGRAM_PROFILE_URL, "https://www.pinterest.de/janazuenkeler/"],
   languages: ["de"],
 };
 

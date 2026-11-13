@@ -1,7 +1,7 @@
 # Automatischer Instagram-Feed
 
 Der Footer zeigt bis zu sechs **echte, neueste zugängliche Beiträge** von
-[@janazuenkeler](https://www.instagram.com/janazuenkeler/). Das Konto ist laut Jana
+[@janavogelfotografie](https://www.instagram.com/janavogelfotografie/). Das Konto ist laut Jana
 professionell. Die Live-Aktivierung setzt Meta-Autorisierung, zwei konfigurierte
 Vercel-Blob-Stores und vollständige Production-Umgebungsvariablen voraus. Im
 verwendeten Vercel-Team bleibt **Hobby** auf ausdrücklichen Wunsch bestehen.
@@ -18,7 +18,7 @@ statischen Ersatzbilder und keine öffentlich zugängliche Test-Route.
   Auf Hobby erfolgt der Aufruf innerhalb der geplanten Stunde; es ist keine
   minutengenaue Aktualitätsgarantie.
 - Eine serverseitige Meta-Abfrage liest den Benutzernamen und bis zu 25 Beiträge
-  mit Field Expansion. Der Benutzername muss `janazuenkeler` sein. Anschließend
+  mit Field Expansion. Der Benutzername muss `janavogelfotografie` sein. Anschließend
   werden die sechs neuesten nach Veröffentlichungsdatum ausgewählt. Angeheftete
   Profilreihenfolge wird nicht übernommen; von anderen Konten veröffentlichte
   Collaboration-Posts sind unter Umständen nicht in dieser API verfügbar.
